@@ -1,1 +1,7 @@
 # portfolio
+
+Setup
+---
+```
+npm install
+```
