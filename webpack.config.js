@@ -1,11 +1,11 @@
-const path = require('path');
- 
+var path = require('path');
+
 module.exports = {
   devtool: 'source-map',
-  entry: path.join(_dirname, 'src/client/index.jsx'),
+  entry: path.join(__dirname, 'src/client/index.jsx'),
   output: {
     path: path.join(__dirname, 'src/bundles'),
-    filename: 'bundle.js',
+    filename: 'bundle.js'
   },
   module: {
     loaders: [
@@ -16,4 +16,4 @@ module.exports = {
       }
     ]
   }
-};
+}

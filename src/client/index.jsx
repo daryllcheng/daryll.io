@@ -1,18 +1,26 @@
-import {React, Component} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware } from 'redux';
+import { Router, Route, IndexRoute, browserHistory } from 'react-router';
+import Thunk from 'redux-thunk';
+import reducers from './reducers/index.jsx';
+import App from './components/App.jsx';
+import Resume from './components/Resume/resume.jsx'
+import Home from './components/Home/home.jsx'
 
-class App extends Component {
-  constructor(props) {
-    super(props);
+const store = createStore(reducers, applyMiddleware(thunk));
 
-    this.state = {};
-  }
+window.store = store;
 
-  render() {
-    return (
-      <div>Daryll</div>
-    );
-  }
-}
-
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(
+  <Provider store={ store }>
+    <Router history={ browserHistory }>
+      <Route path='/' component={ App } >
+        <IndexRoute component={ Home } />
+        <Route path='resume' component={ Resume } />
+      </Route>
+    </Router>
+  </Provider>
+  , document.getElementById('app')
+);
