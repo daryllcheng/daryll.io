@@ -4,6 +4,7 @@ html, body {
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: 'Catamaran', sans-serif;
   letter-spacing: 0.3px;
 }
 
@@ -26,10 +27,11 @@ a {
   text-align: center;
   overflow: hidden;
   position: fixed;
+  font: italic small-caps bold 14px/22px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.resumeContact .resumeBackground {
-  background: url('snow.jpg') center center no-repeat;
+.resumeContact .resumeContactBackground {
+  background: url("./snow.jpg") center center no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -40,7 +42,7 @@ a {
   left: 0;
 }
 
-.resumeContact .resumeBackground:before{
+.resumeContact .resumeContactBackground:before{
   content: '';
   position: absolute;
   top: 0;

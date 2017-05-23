@@ -5,12 +5,12 @@ const Contact = (props) => (
     <div className="resumeContactBackground"></div>
     <div className="resumeContactContent">
       <div className="resumeContactInfo">
-        <h2 className="resumeContactName">{ this.props.name }</h2>
-        <div className="resumeContactTitle">{ this.props.title }</div>
-        <div className="resumeContactCity">{ this.props.city }</div>
+        <h2 className="resumeContactName">{ props.name }</h2>
+        <div className="resumeContactTitle">{ props.title }</div>
+        <div className="resumeContactCity">{ props.city }</div>
         <div className="resumeContactSocial">
-          <a href={ this.props.github } target="_blank">GitHub</a>
-          <a href={ this.props.linkedin } target="_blank">Linkedin</a>
+          <a href={ props.github } target="_blank"><i className="fa fa-github"></i></a>
+          <a href={ props.linkedin } target="_blank"><i className="fa fa-linkedin"></i></a>
         </div>
       </div>
     </div>

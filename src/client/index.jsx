@@ -9,18 +9,11 @@ import App from './components/App.jsx';
 import Resume from './components/Resume/resume.jsx'
 import Home from './components/Home/home.jsx'
 
-const store = createStore(reducers, applyMiddleware(thunk));
 
-window.store = store;
 
 ReactDOM.render(
-  <Provider store={ store }>
-    <Router history={ browserHistory }>
-      <Route path='/' component={ App } >
-        <IndexRoute component={ Home } />
-        <Route path='resume' component={ Resume } />
-      </Route>
-    </Router>
-  </Provider>
+
+<Resume />
+
   , document.getElementById('app')
 );

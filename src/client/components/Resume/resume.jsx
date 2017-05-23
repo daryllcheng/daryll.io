@@ -24,7 +24,7 @@ class Resume extends Component {
           title={ this.state.title }
           city={ this.state.city }
           github={ this.state.github }
-          linkedin={ this.state.github }
+          linkedin={ this.state.linkedin }
           />
         <Content />
       </div>
