@@ -1,13 +1,12 @@
 import React from 'react';
 
 const Content = (props) => (
+
   <div className="resumeContent">
     <div className="resumeContentInfo">
       <div className="resumeContentIntro">
-        <h4>Inroduction</h4>
-        <div className="resumeSections">
-          <p>Hello!</p>
-        </div>
+        <img src="/styles/shufflr.gif"></img>
+        <img src="/styles/ninjaEscape.gif"></img>
       </div>
     </div>
   </div>

@@ -12,7 +12,8 @@ class Resume extends Component {
       city: `San Francisco Bay Area`,
       github: `https://github.com/daryllcheng`,
       linkedin: `https://www.linkedin.com/in/daryllcheng/`,
-      resume: `http://daryll.io/resume2017.pdf`,
+      facebook: `https://www.facebook.com/CDaryll`,
+      resume: `http://daryll.io/resume2017.pdf`
     }
   }
 
@@ -25,7 +26,8 @@ class Resume extends Component {
           city={ this.state.city }
           github={ this.state.github }
           linkedin={ this.state.linkedin }
-          />
+          facebook={ this.state.facebook }
+        />
         <Content />
       </div>
     );
