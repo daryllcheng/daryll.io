@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
 import ProjectNav from './projectNav.jsx';
 import Project from './project.jsx';
-import projectData from './projectData.js';
+import projectData from './projectData.json';
 
 class Projects extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      projects: [...projectData.applications]
+      projects: projectData
     }
-    console.log(`projectData: ${this.state.projects}`);
+  
   }
 
   render() {
+    console.log(`this.state.projects: ${this.state.projects}`);
     return (
       <div className="projects">
         <header className="projectsHeader">
@@ -21,7 +22,7 @@ class Projects extends Component {
           <ProjectNav />
         </header>
         {this.state.projects.map(project =>
-          <Project project={ JSON.stringify(project) } />
+          <Project project={ project } />
         )}
       </div>
     );
