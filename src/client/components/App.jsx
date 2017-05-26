@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import Resume from './Resume/resume.jsx';
-
-import Nav from './Nav/nav.jsx'
+import Personal from './Personal/personal.jsx'
+import Projects from './Projects/projects.jsx';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Resume />
+      <div className="site-container">
+        <Personal />
+        <Projects />
       </div>
     );
   }
