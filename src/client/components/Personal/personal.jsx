@@ -19,7 +19,7 @@ class Personal extends Component {
     return (
       <div className="personal">
         <div className="personalBackground"></div>
-        <div className="personalContent">
+        <div className="wrap">
           <div className="personalInfo">
             <h2 className="personalName">{ this.state.name }</h2>
             <div className="personalTitle">{ this.state.title }</div>

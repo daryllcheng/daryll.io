@@ -10,10 +10,10 @@ const Project = ({ project }) => {
         <div>{ stack }</div>
       )}
       {project.StackIcons.map(icon =>
-        <div>{ icon }</div>
+        <img src={ icon } style={{ "width": "100px" }} />
       )}
       {project.Screenshots.map(shot =>
-        <div>{ shot }</div>
+        <img src={ shot } />
       )}
       <p>{ project.Demo }</p>
       <p>{ project.Github }</p>

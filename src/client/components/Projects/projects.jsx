@@ -14,12 +14,13 @@ class Projects extends Component {
   }
 
   render() {
-    console.log(`this.state.projects: ${this.state.projects}`);
     return (
       <div className="projects">
         <header className="projectsHeader">
-          <h1 className="projectHeader">Projects</h1>
-          <ProjectNav />
+          <div className="wrap">
+            <h1 className="projectHeader">Projects</h1>
+            <ProjectNav />
+          </div>
         </header>
         {this.state.projects.map(project =>
           <Project project={ project } />
