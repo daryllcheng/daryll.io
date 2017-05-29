@@ -2,7 +2,7 @@ import React from 'react';
 
 const Project = ({ project }) => {
   return (
-    <div className="project" >
+    <div id={ project.Name } className="section" >
       <h2>{ project.Name }</h2>
       <p>{ project.Date }</p>
       <p>{ project.Description }</p>

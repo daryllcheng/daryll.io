@@ -16,15 +16,15 @@ class Projects extends Component {
   render() {
     return (
       <div className="projects">
-        <header className="projectsHeader">
-          <div className="wrap">
+        <div className="wrap">
+          <header className="projectsHeader">
             <h1 className="projectHeader">Projects</h1>
             <ProjectNav />
-          </div>
-        </header>
-        {this.state.projects.map(project =>
-          <Project project={ project } />
-        )}
+          </header>
+          {this.state.projects.map(project =>
+            <Project project={ project } />
+          )}
+        </div>
       </div>
     );
   }

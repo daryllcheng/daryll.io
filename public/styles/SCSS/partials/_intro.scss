@@ -1,17 +1,12 @@
-.intro {
-  background-size: cover;
-  position: relative;
-  @include size(auto 100vh);
-}
-
 .hero {
   background-image: url("/assets/hero.jpg");
+  background-size: cover;
   text-align: center;
-  @extend .intro;
+  @extend .section;
 
   .overlay {
-    background: rgba($blue, .5);
-    @extend .intro;
+    background: rgba($brown, .7);
+    @extend .section;
   };
 
   .wrap {

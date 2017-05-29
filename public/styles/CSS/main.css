@@ -398,6 +398,12 @@ body {
   font-size: 16px;
   line-height: 1.6; }
 
+.section, .hero, .hero .overlay {
+  height: auto;
+  width: 100%;
+  min-height: 700px;
+  position: relative; }
+
 h1, h2, h3, h4, h5 {
   font-family: "Playfair Display", serif; }
 
@@ -442,17 +448,21 @@ nav a {
   width: 100px; }
 
 /* Susy Setup */
-.intro, .hero, .hero .overlay {
-  background-size: cover;
-  position: relative;
-  height: 100vh;
-  width: auto; }
+.wrap {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto; }
+  .wrap:after {
+    content: " ";
+    display: block;
+    clear: both; }
 
 .hero {
   background-image: url("/assets/hero.jpg");
+  background-size: cover;
   text-align: center; }
   .hero .overlay {
-    background: rgba(36, 123, 160, 0.5); }
+    background: rgba(80, 81, 79, 0.7); }
   .hero .wrap {
     padding: 60px 0; }
 

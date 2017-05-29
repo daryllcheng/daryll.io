@@ -17,7 +17,7 @@ class Intro extends Component {
 
   render() {
     return (
-      <div className="intro">
+      <div classID="intro" className="section">
         <div className="hero">
           <div className="overlay">
             <div className="wrap">

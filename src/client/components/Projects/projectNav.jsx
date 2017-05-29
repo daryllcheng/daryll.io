@@ -9,11 +9,11 @@ class ProjectNav extends Component {
     return (
       <nav className="projectNav">
         <ul>
-          <li><a href="#">Tie-Chai</a></li>
-          <li><a href="#">Seethroughme</a></li>
-          <li><a href="#">ReUp</a></li>
-          <li><a href="#">Ninja Escape</a></li>
-          <li><a href="#">Shufflr</a></li>
+          <li><a href="#Tie-Chai">Tie-Chai</a></li>
+          <li><a href="#Seethroughme">Seethroughme</a></li>
+          <li><a href="#ReUp">ReUp</a></li>
+          <li><a href="#Shuriken">Ninja Escape</a></li>
+          <li><a href="#Shufflr">Shufflr</a></li>
         </ul>
       </nav>
     );
