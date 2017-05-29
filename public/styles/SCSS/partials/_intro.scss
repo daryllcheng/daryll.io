@@ -1,0 +1,20 @@
+.intro {
+  background-size: cover;
+  position: relative;
+  @include size(auto 100vh);
+}
+
+.hero {
+  background-image: url("/assets/hero.jpg");
+  text-align: center;
+  @extend .intro;
+
+  .overlay {
+    background: rgba($blue, .5);
+    @extend .intro;
+  };
+
+  .wrap {
+    padding: 60px 0;
+  }
+}

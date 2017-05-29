@@ -398,18 +398,6 @@ body {
   font-size: 16px;
   line-height: 1.6; }
 
-.hero {
-  background-image: url("/assets/hero.jpg");
-  height: 100%;
-  width: 100%;
-  min-height: 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  z-index: -1;
-  overflow: hidden; }
-
 h1, h2, h3, h4, h5 {
   font-family: "Playfair Display", serif; }
 
@@ -453,9 +441,19 @@ nav a {
   height: auto;
   width: 100px; }
 
-.personalBackground .overlay {
-  background: rgba(255, 224, 102, 0.7); }
-
 /* Susy Setup */
+.intro, .hero, .hero .overlay {
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: auto; }
+
+.hero {
+  background-image: url("/assets/hero.jpg");
+  text-align: center; }
+  .hero .overlay {
+    background: rgba(36, 123, 160, 0.5); }
+  .hero .wrap {
+    padding: 60px 0; }
 
 /*# sourceMappingURL=main.css.map */
