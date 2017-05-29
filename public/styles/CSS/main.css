@@ -405,7 +405,8 @@ body {
   position: relative; }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Playfair Display", serif; }
+  font-family: "Playfair Display", serif;
+  text-align: center; }
 
 h1 {
   font-size: 36px; }
@@ -440,22 +441,41 @@ nav a {
     color: #f25f5c; }
 
 .screenshot {
+  margin: auto;
+  display: block;
   height: auto;
-  width: 250px; }
+  width: 70%; }
 
 .stackIcon {
+  padding: 20px;
   height: auto;
-  width: 100px; }
+  width: 150px; }
 
 /* Susy Setup */
 .wrap {
-  max-width: 70%;
+  max-width: 80%;
   margin-left: auto;
   margin-right: auto; }
   .wrap:after {
     content: " ";
     display: block;
     clear: both; }
+  .wrap .row {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    .wrap .row:after {
+      content: " ";
+      display: block;
+      clear: both; }
+    .wrap .row .stackIcons {
+      width: 49.3975903614%;
+      float: left;
+      margin-right: 1.2048192771%; }
+    .wrap .row .projectDescription {
+      width: 40.9638554217%;
+      float: left;
+      margin-right: 1.2048192771%; }
 
 .hero {
   background-image: url("/assets/hero.jpg");

@@ -1,8 +1,11 @@
 .screenshot {
-  @include size(250px auto);
+  margin: auto;
+  display: block;
+  @include size(70% auto);
 }
 
 .stackIcon {
-  @include size(100px auto);
+  padding: 20px;
+  @include size(150px auto);
 }
 

@@ -6,5 +6,17 @@ $susy: (
 );
 
 .wrap {
-  @include container(70%);
+  @include container(80%);
+
+  .row {
+    @include container(100%);
+
+    .stackIcons {
+      @include span(6);
+    }
+
+    .projectDescription {
+      @include span(5);
+    }
+  }
 }
