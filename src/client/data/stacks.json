@@ -1,0 +1,97 @@
+[
+  {
+    "Name": "Angular",
+    "Icon": "/assets/angular.png",
+    "Link": "https://angularjs.org/"
+  },
+  {
+    "Name": "AWS S3",
+    "Icon": "/assets/aws.png",
+    "Link": "https://aws.amazon.com/s3/"
+  },
+  {
+    "Name": "D3",
+    "Icon": "/assets/d3.png",
+    "Link": "https://d3js.org/"
+  },
+    {
+    "Name": "Digital Ocean",
+    "Icon": "/assets/digitalOcean.png",
+    "Link": "https://www.digitalocean.com/"
+  },
+  {
+    "Name": "Enzyme",
+    "Icon": "/assets/enzyme.png",
+    "Link": "http://airbnb.io/enzyme/"
+  },
+  {
+    "Name": "Express",
+    "Icon": "/assets/express.png",
+    "Link": "https://expressjs.com/"
+  },
+  {
+    "Name": "Firebase",
+    "Icon": "/assets/firebase.png",
+    "Link": "https://firebase.google.com/"
+  },
+  {
+    "Name": "Golang",
+    "Icon": "/assets/golang.png",
+    "Link": "https://golang.org/"
+  },
+  {
+    "Name": "Google Cloud Translation",
+    "Icon": "/assets/googletranslate.png",
+    "Link": "https://cloud.google.com/translate/docs/"
+  },
+  {
+    "Name": "Grunt",
+    "Icon": "/assets/grunt.png",
+    "Link": "https://gruntjs.com/"
+  },
+  {
+    "Name": "IBM Watson",
+    "Icon": "/assets/ibmwatson.png",
+    "Link": "https://www.ibm.com/watson/developercloud/"
+  },
+  {
+    "Name": "MongoDB",
+    "Icon": "/assets/mongodb.png",
+    "Link": "https://www.mongodb.com/"
+  },
+  {
+    "Name": "MySQL",
+    "Icon": "/assets/mysql.png",
+    "Link": "https://www.mysql.com/"
+  },
+  {
+    "Name": "Node",
+    "Icon": "/assets/node.png",
+    "Link": "https://nodejs.org/en/"
+  },
+  {
+    "Name": "PostgreSQL",
+    "Icon": "/assets/postgresql.png",
+    "Link": "https://www.postgresql.org/"
+  },
+  {
+    "Name": "React",
+    "Icon": "/assets/react.png",
+    "Link": "https://facebook.github.io/react/"
+  },
+    {
+    "Name": "Redis",
+    "Icon": "/assets/redis.png",
+    "Link": "https://redis.io/"
+  },
+    {
+    "Name": "Redux",
+    "Icon": "/assets/redux.png",
+    "Link": "http://redux.js.org/"
+  },
+    {
+    "Name": "Sass",
+    "Icon": "/assets/sass.png",
+    "Link": "http://sass-lang.com/"
+  }
+]

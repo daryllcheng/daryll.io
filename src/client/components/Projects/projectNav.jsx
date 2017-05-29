@@ -4,7 +4,7 @@ const ProjectNav = ({ projects }) => (
   <nav className="projectNav">
     <ul>
       { projects.map(project => 
-        <li><a href={`#${ project.Name }`}>{ project.Name }</a></li>
+        <li key={ project.Name }><a href={`#${ project.Name }`}>{ project.Name }</a></li>
       )}
     </ul>
   </nav>

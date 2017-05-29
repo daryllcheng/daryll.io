@@ -1,4 +1,6 @@
 import React from 'react';
+import Stacks from '../../data/stacks.json';
+import APIs from '../../data/apis.json';
 
 const Project = ({ project }) => {
   return (
@@ -8,17 +10,25 @@ const Project = ({ project }) => {
         <img className="screenshot" src={ shot } />
       )}
       <div className="row">
-        <div className="stackIcons">
-          { project.StackIcons.map(icon =>
-            <img className="stackIcon" src={ icon } />
+        <div className="projectStacks">
+          { project.Tags.map(tag => {
+              let target = Stacks.find(stack => stack.Name === tag);
+              return (
+                <a href={ target.Link } target="_blank"><img className="stackIcon" src={ target.Icon } /></a>
+              )
+            }
+          )}
+        </div>
+        <div className="projectAPIs">
+          { project.APITags.map(apiTag => {
+              let target = APIs.find(api => api.Name === apiTag);
+              return (
+                <a href={ target.Link } target="_blank"><img className="stackIcon" src={ target.Icon } /></a>
+              )
+            }
           )}
         </div>
         <div className="projectDescription">{ project.Description }</div>
-      </div>
-      <div className="projectStacks">
-        { project.Stack.map(stack =>
-          <div className="projectStack">{ stack }</div>
-        )}
       </div>
       <p>{ project.Demo }</p>
       <p>{ project.Github }</p>
