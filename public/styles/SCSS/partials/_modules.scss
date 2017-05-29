@@ -1,0 +1,11 @@
+.screenshot {
+  @include size(250px auto);
+}
+
+.stackIcon {
+  @include size(100px auto);
+}
+
+.personalBackground .overlay {
+  background: rgba($yellow, .7);
+}

@@ -44,7 +44,7 @@
     "Date": 2017,
     "Description": "Engage others in a friendly competition testing both your trivia and word skills",
     "Stack": ["MongoDB", "Angular", "Express.js", "Node.js"],
-    "StackIcons": ["/assets/angular.png", "/assets/express.png", "/assets/mysql.png", "/assets/nodejs.png"],
+    "StackIcons": ["/assets/angular.png", "/assets/express.png", "/assets/mongodb.png", "/assets/nodejs.png"],
     "Screenshots": ["/assets/shufflr.gif"],
     "Demo": "",
     "Github": ""

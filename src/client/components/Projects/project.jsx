@@ -3,17 +3,17 @@ import React from 'react';
 const Project = ({ project }) => {
   return (
     <div className="project" >
-      <p>{ project.Name }</p>
+      <h2>{ project.Name }</h2>
       <p>{ project.Date }</p>
       <p>{ project.Description }</p>
       {project.Stack.map(stack =>
-        <div>{ stack }</div>
+        <div className="projectStack">{ stack }</div>
       )}
       {project.StackIcons.map(icon =>
-        <img src={ icon } style={{ "width": "100px" }} />
+        <img className="stackIcon" src={ icon } />
       )}
       {project.Screenshots.map(shot =>
-        <img src={ shot } />
+        <img className="screenshot" src={ shot } />
       )}
       <p>{ project.Demo }</p>
       <p>{ project.Github }</p>

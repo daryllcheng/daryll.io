@@ -17,21 +17,19 @@ class Personal extends Component {
 
   render() {
     return (
-      <div className="personal">
-        <div className="personalBackground"></div>
-        <div className="wrap">
-          <div className="personalInfo">
-            <h2 className="personalName">{ this.state.name }</h2>
-            <div className="personalTitle">{ this.state.title }</div>
-            <div className="personalCity">{ this.state.city }</div>
-            <div className="personalSocial">
-              <a href={ this.state.github } target="_blank"><i className="fa fa-github"></i></a>
-              <a href={ this.state.linkedin } target="_blank"><i className="fa fa-linkedin"></i></a>
-              <a href={ this.state.facebook } target="_blank"><i className="fa fa-facebook"></i></a>
+      <div className="intro">
+        <div className="hero">
+          <div className="overlay">
+            <div className="wrap">
+              <h1 className="personalName">{ this.state.name }</h1>
+              <h2 className="personalTitle">{ this.state.title }</h2>
+              <div className="personalCity">{ this.state.city }</div>
+              <div className="personalSocial">
+                <a href={ this.state.github } target="_blank"><i className="fa fa-github"></i></a>
+                <a href={ this.state.linkedin } target="_blank"><i className="fa fa-linkedin"></i></a>
+                <a href={ this.state.facebook } target="_blank"><i className="fa fa-facebook"></i></a>
+              </div>
             </div>
-          </div>
-          <div className="personalSkills">
-          
           </div>
         </div>
       </div>
