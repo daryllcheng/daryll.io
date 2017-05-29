@@ -6,13 +6,13 @@ const Project = ({ project }) => {
       <h2>{ project.Name }</h2>
       <p>{ project.Date }</p>
       <p>{ project.Description }</p>
-      {project.Stack.map(stack =>
+      { project.Stack.map(stack =>
         <div className="projectStack">{ stack }</div>
       )}
-      {project.StackIcons.map(icon =>
+      { project.StackIcons.map(icon =>
         <img className="stackIcon" src={ icon } />
       )}
-      {project.Screenshots.map(shot =>
+      { project.Screenshots.map(shot =>
         <img className="screenshot" src={ shot } />
       )}
       <p>{ project.Demo }</p>

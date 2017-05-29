@@ -19,9 +19,9 @@ class Projects extends Component {
         <div className="wrap">
           <header className="projectsHeader">
             <h1 className="projectHeader">Projects</h1>
-            <ProjectNav />
+            <ProjectNav projects={ this.state.projects }/>
           </header>
-          {this.state.projects.map(project =>
+          { this.state.projects.map(project =>
             <Project project={ project } />
           )}
         </div>
