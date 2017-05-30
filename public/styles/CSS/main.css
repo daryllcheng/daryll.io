@@ -454,6 +454,8 @@ nav a {
     content: " ";
     display: block;
     clear: both; }
+  .wrap .macbook {
+    margin-top: 30px; }
   .wrap .stackIcons, .wrap .apiIcons {
     display: table;
     max-width: 100%;
@@ -473,15 +475,14 @@ nav a {
   background: url("/assets/hero.jpg") no-repeat fixed center;
   background-size: cover;
   text-align: center; }
-  .hero .overlay {
-    background: rgba(80, 81, 79, 0.3); }
   .hero .wrap {
     padding: 60px 0; }
 
 /* Copied from Minimal-devices */
 .md-macbook-pro {
   width: 55.3125em;
-  height: 31.875em; }
+  height: 31.875em;
+  margin: 0 auto; }
 
 .md-macbook-pro .md-lid {
   width: 45em;

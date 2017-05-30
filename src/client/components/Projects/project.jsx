@@ -13,14 +13,16 @@ const Project = ({ project }) => {
         </div>
       </div>
       <div className="wrap">
-      <div className="md-macbook-pro">
-        <div className="md-lid">
-          <div className="md-camera"></div>
-            <div className="md-screen">
-              <img className="screenshot" src={ project.Screenshot } />
+      <div className="macbook">
+        <div className="md-macbook-pro">
+          <div className="md-lid">
+            <div className="md-camera"></div>
+              <div className="md-screen">
+                <img className="screenshot" src={ project.Screenshot } />
+              </div>
             </div>
+            <div className="md-base"></div>
           </div>
-          <div className="md-base"></div>
         </div>
         <div className="stackIcons">
           <span className="label">Stack: </span>
@@ -37,7 +39,7 @@ const Project = ({ project }) => {
         { project.APITags.length > 0 ? 
           <div className="apiIcons">
             <span className="label">APIs: </span>
-            <img className="bracket" src="/assets/leftABracket.png" />
+            <img className="bracket" src="/assets/leftBracket.png" />
             { project.APITags.map(apiTag => {
                 let target = APIs.find(api => api.Name === apiTag);
                 return (
@@ -45,7 +47,7 @@ const Project = ({ project }) => {
                 )
               }
             )}
-            <img className="bracket" src="/assets/rightABracket.png" /> 
+            <img className="bracket" src="/assets/rightBracket.png" /> 
           </div> : null }
         <div className="projectDescription">{ project.Description }</div>
         { project.Demo ? <a className="btn btn-full" href={ project.Demo } target="_blank">Demo</a> : null }

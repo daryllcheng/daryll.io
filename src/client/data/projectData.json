@@ -8,7 +8,7 @@
     "Screenshot": "/assets/tiechai.gif",
     "Demo": "tie-chai.com",
     "Github": "https://github.com/Space-Pirahnas/tie-chai",
-    "Background": "/assets/coffeeShop.jpg",
+    "Background": "/assets/tiechaiBG.jpg",
     "Overlay": "$brown"
   },
   {
@@ -20,7 +20,7 @@
     "Screenshot": "/assets/seethroughme.gif",
     "Demo": "",
     "Github": "https://github.com/daryllcheng/seethroughme",
-    "Background": "/assets/catEyes.jpg",
+    "Background": "/assets/seethroughmeBG.jpg",
     "Overlay": "$blue"
   },
   {
@@ -32,7 +32,7 @@
     "Screenshot": "/assets/tiechai.gif",
     "Demo": "",
     "Github": "https://github.com/ReUP-HR/ReUP-HR",
-    "Background": "/assets/coffeeShop.jpg",
+    "Background": "/assets/reupBG.jpg",
     "Overlay": "$yello"
   },
   {
@@ -44,7 +44,7 @@
     "Screenshot": "/assets/shuriken.gif",
     "Demo": "",
     "Github": "",
-    "Background": "/assets/coffeeShop.jpg",
+    "Background": "/assets/shurikenBG.jpg",
     "Overlay": "$red"
   },
   {
@@ -56,7 +56,7 @@
     "Screenshot": "/assets/shufflr.gif",
     "Demo": "",
     "Github": "",
-    "Background": "/assets/coffeeShop.jpg",
+    "Background": "/assets/shufflrBG.jpg",
     "Overlay": "$green"
   }
 ]
