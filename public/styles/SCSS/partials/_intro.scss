@@ -1,15 +1,21 @@
+.intro {
+  @include size(100% 100vh);
+  position: relative;
+}
+
 .hero {
-  background-image: url("/assets/hero.jpg");
+  background: url("/assets/hero.jpg") no-repeat fixed center;
   background-size: cover;
   text-align: center;
-  @extend .section;
+  @extend .intro;
 
   .overlay {
-    background: rgba($brown, .7);
-    @extend .section;
+    background: rgba($brown, .3);
+    @extend .intro;
   };
 
   .wrap {
     padding: 60px 0;
   }
 }
+

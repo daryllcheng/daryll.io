@@ -392,16 +392,16 @@ template {
 
 /* Color Palatte */
 /* Font */
+/* Breakpoints */
 body {
   color: #50514f;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 1.6; }
 
-.section, .hero, .hero .overlay {
+.section {
   height: auto;
   width: 100%;
-  min-height: 700px;
   position: relative; }
 
 h1, h2, h3, h4, h5 {
@@ -449,7 +449,7 @@ nav a {
 .stackIcon {
   padding: 20px;
   height: auto;
-  width: 150px; }
+  width: 60px; }
 
 /* Susy Setup */
 .wrap {
@@ -477,12 +477,17 @@ nav a {
       float: left;
       margin-right: 1.2048192771%; }
 
+.intro, .hero, .hero .overlay {
+  height: 100vh;
+  width: 100%;
+  position: relative; }
+
 .hero {
-  background-image: url("/assets/hero.jpg");
+  background: url("/assets/hero.jpg") no-repeat fixed center;
   background-size: cover;
   text-align: center; }
   .hero .overlay {
-    background: rgba(80, 81, 79, 0.7); }
+    background: rgba(80, 81, 79, 0.3); }
   .hero .wrap {
     padding: 60px 0; }
 

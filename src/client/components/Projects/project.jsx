@@ -31,7 +31,7 @@ const Project = ({ project }) => {
         <div className="projectDescription">{ project.Description }</div>
       </div>
       <p>{ project.Demo }</p>
-      <p>{ project.Github }</p>
+      <a href={ project.Github } target="_blank"><img className="stackIcon" src="/assets/github.png" /></a>
     </div>
   )
 }

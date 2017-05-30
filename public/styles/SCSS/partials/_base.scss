@@ -7,7 +7,6 @@ body {
 
 .section {
   @include size(100% auto);
-  min-height: 700px;
   position: relative;
 }
 
