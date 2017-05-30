@@ -6,13 +6,14 @@ $susy: (
 );
 
 .wrap {
+  text-align: center;
   @include container(80%);
 
   .macbook {
     margin-top: 30px;
   }
 
-  .stackIcons, .apiIcons {
+  .icons {
     display: table;
     @include container(100%);
   }
