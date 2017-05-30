@@ -1,7 +1,7 @@
 .screenshot {
   margin: auto;
   display: block;
-  @include size(70% auto);
+  @include size(auto 100%);
 }
 
 .stackIcon, .bracket {
@@ -13,3 +13,4 @@
   display: table-cell;
   vertical-align: middle;
 }
+

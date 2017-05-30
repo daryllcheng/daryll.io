@@ -5,7 +5,7 @@ import APIs from '../../data/apis.json';
 const Project = ({ project }) => {
   return (
     <div id={ project.Name } className="section">
-      <div className="hero" style={{ "background-image": `url(${ project.Background })`, height: "auto" }} >
+      <div className="hero" style={{ "backgroundImage": `url(${ project.Background })`, height: "auto" }} >
         <div className="overlay" style={{ "background": `rgba(${ project.Overlay }, .8)`, height: "auto" }}>
           <div className="wrap">
             <h2>{ project.Name }</h2>
@@ -13,16 +13,22 @@ const Project = ({ project }) => {
         </div>
       </div>
       <div className="wrap">
-        { project.Screenshots.map(shot =>
-          <img className="screenshot" src={ shot } />
-        )}
+      <div className="md-macbook-pro">
+        <div className="md-lid">
+          <div className="md-camera"></div>
+            <div className="md-screen">
+              <img className="screenshot" src={ project.Screenshot } />
+            </div>
+          </div>
+          <div className="md-base"></div>
+        </div>
         <div className="stackIcons">
           <span className="label">Stack: </span>
           <img className="bracket" src="/assets/leftBracket.png" />
             { project.Tags.map(tag => {
                 let target = Stacks.find(stack => stack.Name === tag);
                 return (
-                  <a href={ target.Link } target="_blank"><img className="stackIcon" src={ target.Icon } /></a>
+                  <a href={ target.Link } target="_blank" key={ target.Link }><img className="stackIcon" src={ target.Icon } /></a>
                 )
               }
             )}
@@ -35,7 +41,7 @@ const Project = ({ project }) => {
             { project.APITags.map(apiTag => {
                 let target = APIs.find(api => api.Name === apiTag);
                 return (
-                  <a href={ target.Link } target="_blank"><img className="stackIcon" src={ target.Icon } /></a>
+                  <a href={ target.Link } target="_blank" key={ target.Link }><img className="stackIcon" src={ target.Icon } /></a>
                 )
               }
             )}
