@@ -417,17 +417,6 @@ h2 {
 h3 {
   font-size: 26px; }
 
-/* Buttons */
-button, input[type="button"], input[type="reset"], input[type="submit"] {
-  background-color: #f00; }
-
-button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus,
-button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
-  background-color: #0f0; }
-
-button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
-  background-color: #00f; }
-
 nav ul {
   list-style: circle; }
 
@@ -446,10 +435,14 @@ nav a {
   height: auto;
   width: 70%; }
 
-.stackIcon {
+.stackIcon, .bracket {
   padding: 20px;
-  height: auto;
-  width: 60px; }
+  height: 50px;
+  width: auto; }
+
+.label {
+  display: table-cell;
+  vertical-align: middle; }
 
 /* Susy Setup */
 .wrap {
@@ -460,22 +453,15 @@ nav a {
     content: " ";
     display: block;
     clear: both; }
-  .wrap .row {
+  .wrap .stackIcons, .wrap .apiIcons {
+    display: table;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto; }
-    .wrap .row:after {
+    .wrap .stackIcons:after, .wrap .apiIcons:after {
       content: " ";
       display: block;
       clear: both; }
-    .wrap .row .stackIcons {
-      width: 49.3975903614%;
-      float: left;
-      margin-right: 1.2048192771%; }
-    .wrap .row .projectDescription {
-      width: 40.9638554217%;
-      float: left;
-      margin-right: 1.2048192771%; }
 
 .intro, .hero, .hero .overlay {
   height: 100vh;
@@ -486,8 +472,6 @@ nav a {
   background: url("/assets/hero.jpg") no-repeat fixed center;
   background-size: cover;
   text-align: center; }
-  .hero .overlay {
-    background: rgba(80, 81, 79, 0.3); }
   .hero .wrap {
     padding: 60px 0; }
 

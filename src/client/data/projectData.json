@@ -5,9 +5,11 @@
     "Description": "Built for professionals with an interest in expanding their network. Tie-Chai allows users to match with professionals with similar interests. Users can then form connections off mutual interest and communicate meetings and host events on a responsive interface.",
     "Tags": ["React", "Redux", "Redis", "Golang", "PostgreSQL", "AWS S3", "Firebase", "Enzyme"],
     "APITags": ["Yelp", "Google Maps"],
-    "Screenshots": [],
+    "Screenshots": ["/assets/tiechai.gif"],
     "Demo": "tie-chai.com",
-    "Github": "https://github.com/Space-Pirahnas/tie-chai"
+    "Github": "https://github.com/Space-Pirahnas/tie-chai",
+    "Background": "/assets/coffeeShop.jpg",
+    "Overlay": "$brown"
   },
   {
     "Name": "Seethroughme",
@@ -17,7 +19,9 @@
     "APITags": ["IBM Watson Text to Speech", "Google Cloud Translation", "IBM Watson Visual Recognition", "Google Tesseract OCR"],
     "Screenshots": ["/assets/seethroughme.gif"],
     "Demo": "",
-    "Github": "https://github.com/daryllcheng/seethroughme"
+    "Github": "https://github.com/daryllcheng/seethroughme",
+    "Background": "/assets/catEyes.jpg",
+    "Overlay": "$blue"
   },
   {
     "Name": "ReUp",
@@ -25,9 +29,11 @@
     "Description": "A news aggregator for your interests and passions",
     "Tags": ["React", "Node", "MySQL", "Express"],
     "APITags": ["Youtube", "Reddit", "Twitter", "Twitch", "IGN", "Giant Bomb", "Polygon"],
-    "Screenshots": [],
+    "Screenshots": ["/assets/tiechai.gif"],
     "Demo": "",
-    "Github": "https://github.com/ReUP-HR/ReUP-HR"
+    "Github": "https://github.com/ReUP-HR/ReUP-HR",
+    "Background": "/assets/coffeeShop.jpg",
+    "Overlay": "$yello"
   },
   {
     "Name": "Shuriken",
@@ -37,7 +43,9 @@
     "APITags": [],
     "Screenshots": ["/assets/shuriken.gif"],
     "Demo": "",
-    "Github": ""
+    "Github": "",
+    "Background": "/assets/coffeeShop.jpg",
+    "Overlay": "$red"
   },
   {
     "Name": "Shufflr",
@@ -47,6 +55,8 @@
     "APITags": [],
     "Screenshots": ["/assets/shufflr.gif"],
     "Demo": "",
-    "Github": ""
+    "Github": "",
+    "Background": "/assets/coffeeShop.jpg",
+    "Overlay": "$green"
   }
 ]

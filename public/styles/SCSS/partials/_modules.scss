@@ -4,7 +4,12 @@
   @include size(70% auto);
 }
 
-.stackIcon {
+.stackIcon, .bracket {
   padding: 20px;
-  @include size(60px auto);
+  @include size(auto 50px);
+}
+
+.label {
+  display: table-cell;
+  vertical-align: middle;
 }

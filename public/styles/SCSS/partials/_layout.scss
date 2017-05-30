@@ -8,15 +8,8 @@ $susy: (
 .wrap {
   @include container(80%);
 
-  .row {
+  .stackIcons, .apiIcons {
+    display: table;
     @include container(100%);
-
-    .stackIcons {
-      @include span(6);
-    }
-
-    .projectDescription {
-      @include span(5);
-    }
   }
 }
