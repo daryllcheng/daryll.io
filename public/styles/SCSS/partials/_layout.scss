@@ -18,3 +18,8 @@ $susy: (
     @include container(100%);
   }
 }
+
+.projects .section {
+  @include susy-breakpoint($medium) {
+  }
+}
