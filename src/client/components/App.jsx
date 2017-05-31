@@ -17,7 +17,6 @@ class App extends Component {
     return (
       <div className="site-container">
         <Nav projects={ this.state.projects } />
-        <a className="cornerMenu imgReplace">Open navigation<span /></a>
         <Intro />
         <Projects projects={ this.state.projects }/>
         <Footer />

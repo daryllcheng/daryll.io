@@ -1,14 +1,15 @@
 import React from 'react';
+import Scroll, { Link, Element, Events, scroll, scrollSpy } from 'react-scroll';
 
 const Nav = ({ projects }) => (
-  <nav className="nav">
+  <nav className="dotNav">
     <ul>
       { projects.map(project => 
         <li key={ project.Name }>
-          <a href={`#${ project.Name }`} data-number={ projects.indexOf(project) + 1 }>
-          <span className="dot" />
-          <span className="dotLabel">{ project.Name }</span>
-          </a>
+          <Link activeClass="active" to={ project.Name } spy={ true } smooth={ true } duration={ 500 } >
+            <span className="dot" />
+            <span className="dotLabel">{ project.Name }</span>
+          </Link>
         </li>
       )}
     </ul>
