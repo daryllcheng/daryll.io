@@ -421,6 +421,59 @@ nav a {
   nav a:hover {
     color: #f25f5c; }
 
+/* Susy Setup */
+.wrap {
+  text-align: center;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+  .wrap:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .wrap .macbook {
+    margin-top: 30px; }
+  .wrap .icons {
+    display: table;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    .wrap .icons:after {
+      content: " ";
+      display: block;
+      clear: both; }
+  .wrap .projectDescription {
+    padding: 20px;
+    text-align: left; }
+    @media (min-width: 840px) {
+      .wrap .projectDescription {
+        width: 49.3975903614%;
+        float: left;
+        margin-right: 1.2048192771%;
+        margin-left: 25.3012048193%;
+        margin-right: 25.3012048193%; } }
+
+.hero, #intro, #intro .overlay, #footer {
+  background: url("/assets/intro.jpg") no-repeat fixed center;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  height: auto;
+  width: 100%; }
+  .hero .wrap, #intro .wrap, #footer .wrap {
+    padding: 60px 0; }
+
+#intro {
+  height: 100vh; }
+  #intro .overlay {
+    background: rgba(80, 81, 79, 0.2);
+    height: 100vh; }
+
+#footer .footerSocial i {
+  padding: 20px;
+  color: #fff;
+  font-size: 1.5em; }
+
 .screenshot {
   margin: auto;
   display: block;
@@ -474,63 +527,6 @@ nav a {
   background: white; }
   #Shufflr .overlay {
     background: rgba(244, 241, 187, 0.5); }
-
-/* Susy Setup */
-.wrap {
-  text-align: center;
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto; }
-  .wrap:after {
-    content: " ";
-    display: block;
-    clear: both; }
-  .wrap .macbook {
-    margin-top: 30px; }
-  .wrap .icons {
-    display: table;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto; }
-    .wrap .icons:after {
-      content: " ";
-      display: block;
-      clear: both; }
-  .wrap .projectDescription {
-    padding: 20px;
-    text-align: left; }
-    @media (min-width: 840px) {
-      .wrap .projectDescription {
-        width: 49.3975903614%;
-        float: left;
-        margin-right: 1.2048192771%;
-        margin-left: 25.3012048193%;
-        margin-right: 25.3012048193%; } }
-
-.footerSocial i {
-  padding: 20px;
-  color: #fff;
-  text-shadow: 1px 1px 1px #ccc;
-  font-size: 1.5em; }
-
-.hero, #intro, #intro .overlay, #footer {
-  background: url("/assets/intro.jpg") no-repeat fixed center;
-  background-size: cover;
-  text-align: center;
-  position: relative;
-  height: auto;
-  width: 100%; }
-  .hero .wrap, #intro .wrap, #footer .wrap {
-    padding: 60px 0; }
-
-#intro {
-  height: 100vh; }
-  #intro .overlay {
-    background: rgba(80, 81, 79, 0.2);
-    height: 100vh; }
-
-#footer {
-  background: #247ba0; }
 
 /* Copied from Minimal-devices */
 .macbook {

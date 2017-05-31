@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProjectNav = ({ projects }) => (
+const Nav = ({ projects }) => (
   <nav className="wrap">
     <ul>
       { projects.map(project => 
@@ -10,4 +10,4 @@ const ProjectNav = ({ projects }) => (
   </nav>
 );
 
-export default ProjectNav;
+export default Nav;
