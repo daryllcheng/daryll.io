@@ -6,7 +6,7 @@ const Project = ({ project }) => {
   return (
     <div id={ project.Name } className="section">
       <div className="hero" style={{ "backgroundImage": `url(${ project.Background })` }} >
-        <div className="overlay" style={{ "background": `rgba(${ project.Overlay }, .8)` }}>
+        <div className="overlay" style={{ "background": `rgba(${ project.Theme }, .8)` }}>
           <div className="wrap">
             <h2>{ project.Name }</h2>
           </div>
@@ -17,7 +17,12 @@ const Project = ({ project }) => {
         <Icons tags={ project.Stack } title={ 'Stack' } />
         { project.APIs.length > 0 ? <Icons tags={ project.APIs } title={ 'APIs' } /> : null }
         <div className="projectDescription">{ project.Description }</div>
-        { project.Demo ? <a className="button" href={ project.Demo } target="_blank">Demo</a> : null }
+        { project.Demo ? ( 
+            <div className="demo">
+              Check it out at
+              <a className="button" href={ project.Demo } target="_blank"> tie-chai.com</a>!
+             </div> ) 
+          : null }
         <a href={ project.Github } target="_blank"><img className="octocat" src={ project.Octocat } /></a>
       </div>
     </div>

@@ -9,7 +9,7 @@
     "Demo": "tie-chai.com",
     "Github": "https://github.com/Space-Pirahnas/tie-chai",
     "Background": "/assets/BGs/tiechaiBG.jpg",
-    "Overlay": "$brown",
+    "Theme": "rgba(255, 224, 102, 1)",
     "Octocat": "/assets/Octocats/breakingcat.png"
   },
   {
@@ -22,7 +22,7 @@
     "Demo": "",
     "Github": "https://github.com/daryllcheng/seethroughme",
     "Background": "/assets/BGs/seethroughmeBG.jpg",
-    "Overlay": "$blue",
+    "Theme": "rgba(80, 81, 79, 1)",
     "Octocat": "/assets/Octocats/stormtroopocat.png"
   },
   {
@@ -35,7 +35,7 @@
     "Demo": "",
     "Github": "https://github.com/ReUP-HR/ReUP-HR",
     "Background": "/assets/BGs/reupBG.jpg",
-    "Overlay": "$yellow",
+    "Theme": "rgba(36, 123, 160, 1)",
     "Octocat": "/assets/Octocats/ironcat.png"
   },
   {
@@ -48,7 +48,7 @@
     "Demo": "",
     "Github": "",
     "Background": "/assets/BGs/shurikenBG.jpg",
-    "Overlay": "$red",
+    "Theme": "rgba(242, 95, 92, 1)",
     "Octocat": "/assets/Octocats/spidertocat.png"
   },
   {
@@ -61,7 +61,7 @@
     "Demo": "",
     "Github": "",
     "Background": "/assets/BGs/shufflrBG.jpg",
-    "Overlay": "$green",
+    "Theme": "rgba(112, 193, 179, 1)",
     "Octocat": "/assets/Octocats/waldocat.png"
   }
 ]

@@ -24,5 +24,26 @@
 }
 
 .octocat {
+  margin: 10px;
   @include size(auto 100px);
+}
+
+#Tie-Chai {
+  background: $color5;
+}
+
+#Seethroughme {
+  background: $color2;
+}
+
+#ReUp {
+  background: $color3;
+}
+
+#Shuriken {
+  background: $color1;
+}
+
+#Shufflr {
+  background: $color4;
 }

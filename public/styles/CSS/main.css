@@ -394,7 +394,7 @@ template {
 /* Font */
 /* Breakpoints */
 body {
-  color: #50514f;
+  color: black;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 1.6; }
@@ -446,8 +446,24 @@ nav a {
       vertical-align: middle; } }
 
 .octocat {
+  margin: 10px;
   height: 100px;
   width: auto; }
+
+#Tie-Chai {
+  background: rgba(230, 235, 224, 0.05); }
+
+#Seethroughme {
+  background: rgba(244, 241, 187, 0.05); }
+
+#ReUp {
+  background: rgba(155, 193, 188, 0.05); }
+
+#Shuriken {
+  background: rgba(237, 106, 90, 0.05); }
+
+#Shufflr {
+  background: rgba(92, 164, 169, 0.05); }
 
 /* Susy Setup */
 .wrap {
