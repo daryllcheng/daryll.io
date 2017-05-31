@@ -25,6 +25,6 @@
     @include center(x);
     bottom: 20px;
     @include size(38px 44px);
-    background: url("/assets/arrow.png") no-repeat center center;
+    background: url("/assets/arrow.svg") no-repeat center center;
   }
 }
