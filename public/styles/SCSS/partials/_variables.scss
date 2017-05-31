@@ -11,9 +11,15 @@ $color3: rgba(155, 193, 188, .5);
 $color4: rgba(92, 164, 169, .5);
 $color5: rgba(230, 235, 224, .5);
 
+$color-1: #3e3947; // dark purple
+$color-2: #745360; // light purple
+$color-3: #d88683; // pink
+$color-4: #fff; // white
+
 /* Font */
 $serif: 'Playfair Display', serif;
 $sans-serif: 'Raleway', sans-serif;
+$primary-font: 'Ubuntu', sans-serif;
 
 /* Breakpoints */
 $small: 480px;
