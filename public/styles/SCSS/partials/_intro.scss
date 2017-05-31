@@ -1,20 +1,27 @@
-.intro {
-  @include size(100% 100vh);
-  position: relative;
-}
-
 .hero {
-  background: url("/assets/hero.jpg") no-repeat fixed center;
+  background: url("/assets/intro.jpg") no-repeat fixed center;
   background-size: cover;
   text-align: center;
-  @extend .intro;
-
-  .overlay {
-    @extend .intro;
-  };
+  position: relative;
+  @include size(100% auto);
 
   .wrap {
     padding: 60px 0;
   }
 }
 
+#intro {
+  @extend .hero;
+  height: 100vh;
+
+  .overlay {
+    background: rgba($brown, .2);
+    height: 100vh;
+    @extend .hero;
+  };
+}
+
+#footer {
+  @extend .hero;
+  background: $blue;
+}

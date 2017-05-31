@@ -1,97 +1,97 @@
 [
   {
     "Name": "Angular",
-    "Icon": "/assets/angular.png",
+    "Icon": "/assets/Stack/angular.png",
     "Link": "https://angularjs.org/"
   },
   {
     "Name": "AWS S3",
-    "Icon": "/assets/aws.png",
+    "Icon": "/assets/Stack/aws.png",
     "Link": "https://aws.amazon.com/s3/"
   },
   {
     "Name": "D3",
-    "Icon": "/assets/d3.png",
+    "Icon": "/assets/Stack/d3.png",
     "Link": "https://d3js.org/"
   },
     {
     "Name": "Digital Ocean",
-    "Icon": "/assets/digitalOcean.png",
+    "Icon": "/assets/Stack/digitalOcean.png",
     "Link": "https://www.digitalocean.com/"
   },
   {
     "Name": "Enzyme",
-    "Icon": "/assets/enzyme.png",
+    "Icon": "/assets/Stack/enzyme.png",
     "Link": "http://airbnb.io/enzyme/"
   },
   {
     "Name": "Express",
-    "Icon": "/assets/express.png",
+    "Icon": "/assets/Stack/express.png",
     "Link": "https://expressjs.com/"
   },
   {
     "Name": "Firebase",
-    "Icon": "/assets/firebase.png",
+    "Icon": "/assets/Stack/firebase.png",
     "Link": "https://firebase.google.com/"
   },
   {
     "Name": "Golang",
-    "Icon": "/assets/golang.png",
+    "Icon": "/assets/Stack/golang.png",
     "Link": "https://golang.org/"
   },
   {
     "Name": "Google Cloud Translation",
-    "Icon": "/assets/googletranslate.png",
+    "Icon": "/assets/Stack/googletranslate.png",
     "Link": "https://cloud.google.com/translate/docs/"
   },
   {
     "Name": "Grunt",
-    "Icon": "/assets/grunt.png",
+    "Icon": "/assets/Stack/grunt.png",
     "Link": "https://gruntjs.com/"
   },
   {
     "Name": "IBM Watson",
-    "Icon": "/assets/ibmwatson.png",
+    "Icon": "/assets/Stack/ibmwatson.png",
     "Link": "https://www.ibm.com/watson/developercloud/"
   },
   {
     "Name": "MongoDB",
-    "Icon": "/assets/mongodb.png",
+    "Icon": "/assets/Stack/mongodb.png",
     "Link": "https://www.mongodb.com/"
   },
   {
     "Name": "MySQL",
-    "Icon": "/assets/mysql.png",
+    "Icon": "/assets/Stack/mysql.png",
     "Link": "https://www.mysql.com/"
   },
   {
     "Name": "Node",
-    "Icon": "/assets/node.png",
+    "Icon": "/assets/Stack/node.png",
     "Link": "https://nodejs.org/en/"
   },
   {
     "Name": "PostgreSQL",
-    "Icon": "/assets/postgresql.png",
+    "Icon": "/assets/Stack/postgresql.png",
     "Link": "https://www.postgresql.org/"
   },
   {
     "Name": "React",
-    "Icon": "/assets/react.png",
+    "Icon": "/assets/Stack/react.png",
     "Link": "https://facebook.github.io/react/"
   },
     {
     "Name": "Redis",
-    "Icon": "/assets/redis.png",
+    "Icon": "/assets/Stack/redis.png",
     "Link": "https://redis.io/"
   },
     {
     "Name": "Redux",
-    "Icon": "/assets/redux.png",
+    "Icon": "/assets/Stack/redux.png",
     "Link": "http://redux.js.org/"
   },
     {
     "Name": "Sass",
-    "Icon": "/assets/sass.png",
+    "Icon": "/assets/Stack/sass.png",
     "Link": "http://sass-lang.com/"
   }
 ]

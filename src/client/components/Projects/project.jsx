@@ -5,8 +5,8 @@ import Icons from './projectComponents/icons.jsx';
 const Project = ({ project }) => {
   return (
     <div id={ project.Name } className="section">
-      <div className="hero" style={{ "backgroundImage": `url(${ project.Background })`, height: "auto" }} >
-        <div className="overlay" style={{ "background": `rgba(${ project.Overlay }, .8)`, height: "auto" }}>
+      <div className="hero" style={{ "backgroundImage": `url(${ project.Background })` }} >
+        <div className="overlay" style={{ "background": `rgba(${ project.Overlay }, .8)` }}>
           <div className="wrap">
             <h2>{ project.Name }</h2>
           </div>
@@ -18,7 +18,7 @@ const Project = ({ project }) => {
         { project.APIs.length > 0 ? <Icons tags={ project.APIs } title={ 'APIs' } /> : null }
         <div className="projectDescription">{ project.Description }</div>
         { project.Demo ? <a className="button" href={ project.Demo } target="_blank">Demo</a> : null }
-        <a href={ project.Github } target="_blank"><img className="icon" src="/assets/github.png" /></a>
+        <a href={ project.Github } target="_blank"><img className="octocat" src={ project.Octocat } /></a>
       </div>
     </div>
   )

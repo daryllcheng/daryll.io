@@ -404,19 +404,10 @@ body {
   width: 100%;
   position: relative; }
 
-h1, h2, h3, h4, h5 {
+h1, h2 {
   font-family: "Playfair Display", serif;
   text-align: center;
   color: white; }
-
-h1 {
-  font-size: 36px; }
-
-h2 {
-  font-size: 30px; }
-
-h3 {
-  font-size: 26px; }
 
 nav ul {
   list-style: circle; }
@@ -437,13 +428,26 @@ nav a {
   width: auto; }
 
 .icon, .bracket {
-  padding: 20px;
-  height: 50px;
+  padding: 5px;
+  height: 33px;
   width: auto; }
+  @media (min-width: 840px) {
+    .icon, .bracket {
+      padding: 20px;
+      height: 50px;
+      width: auto; } }
 
 .label {
-  display: table-cell;
-  vertical-align: middle; }
+  display: block;
+  margin-top: 10px; }
+  @media (min-width: 840px) {
+    .label {
+      display: table-cell;
+      vertical-align: middle; } }
+
+.octocat {
+  height: 100px;
+  width: auto; }
 
 /* Susy Setup */
 .wrap {
@@ -466,18 +470,41 @@ nav a {
       content: " ";
       display: block;
       clear: both; }
+  .wrap .projectDescription {
+    padding: 20px;
+    text-align: left; }
+    @media (min-width: 840px) {
+      .wrap .projectDescription {
+        width: 49.3975903614%;
+        float: left;
+        margin-right: 1.2048192771%;
+        margin-left: 25.3012048193%;
+        margin-right: 25.3012048193%; } }
 
-.intro, .hero, .hero .overlay {
-  height: 100vh;
-  width: 100%;
-  position: relative; }
+.footerSocial i {
+  padding: 20px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #ccc;
+  font-size: 1.5em; }
 
-.hero {
-  background: url("/assets/hero.jpg") no-repeat fixed center;
+.hero, #intro, #intro .overlay, #footer {
+  background: url("/assets/intro.jpg") no-repeat fixed center;
   background-size: cover;
-  text-align: center; }
-  .hero .wrap {
+  text-align: center;
+  position: relative;
+  height: auto;
+  width: 100%; }
+  .hero .wrap, #intro .wrap, #footer .wrap {
     padding: 60px 0; }
+
+#intro {
+  height: 100vh; }
+  #intro .overlay {
+    background: rgba(80, 81, 79, 0.2);
+    height: 100vh; }
+
+#footer {
+  background: #247ba0; }
 
 /* Copied from Minimal-devices */
 .macbook {

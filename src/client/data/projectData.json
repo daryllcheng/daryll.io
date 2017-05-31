@@ -5,11 +5,12 @@
     "Description": "Built for professionals with an interest in expanding their network. Tie-Chai allows users to match with professionals with similar interests. Users can then form connections off mutual interest and communicate meetings and host events on a responsive interface.",
     "Stack": ["React", "Redux", "Redis", "Golang", "PostgreSQL", "AWS S3", "Firebase", "Enzyme"],
     "APIs": ["Yelp", "Google Maps"],
-    "Screenshot": "/assets/tiechai.gif",
+    "Screenshot": "/assets/Screenshots/tiechai.gif",
     "Demo": "tie-chai.com",
     "Github": "https://github.com/Space-Pirahnas/tie-chai",
-    "Background": "/assets/tiechaiBG.jpg",
-    "Overlay": "$brown"
+    "Background": "/assets/BGs/tiechaiBG.jpg",
+    "Overlay": "$brown",
+    "Octocat": "/assets/Octocats/breakingcat.png"
   },
   {
     "Name": "Seethroughme",
@@ -17,11 +18,12 @@
     "Description": "SeeThroughMe provides useful tools for beginner travelers who need help identifying and translating signs or objects in foreign countries. Users submit images to the app and receive a description, translate it to their preferred language, and then can hear the pronunciation of the translation. The application can be used in both web and mobile platforms, making it flexible for travelers on the go.",
     "Stack": ["React", "Node", "Express"],
     "APIs": ["IBM Watson Text to Speech", "Google Cloud Translation", "IBM Watson Visual Recognition", "Google Tesseract OCR"],
-    "Screenshot": "/assets/seethroughme.gif",
+    "Screenshot": "/assets/Screenshots/seethroughme.gif",
     "Demo": "",
     "Github": "https://github.com/daryllcheng/seethroughme",
-    "Background": "/assets/seethroughmeBG.jpg",
-    "Overlay": "$blue"
+    "Background": "/assets/BGs/seethroughmeBG.jpg",
+    "Overlay": "$blue",
+    "Octocat": "/assets/Octocats/stormtroopocat.png"
   },
   {
     "Name": "ReUp",
@@ -29,11 +31,12 @@
     "Description": "A news aggregator for your interests and passions",
     "Stack": ["React", "Node", "MySQL", "Express"],
     "APIs": ["Youtube", "Reddit", "Twitter", "Twitch", "IGN", "Giant Bomb", "Polygon"],
-    "Screenshot": "/assets/tiechai.gif",
+    "Screenshot": "/assets/Screenshots/tiechai.gif",
     "Demo": "",
     "Github": "https://github.com/ReUP-HR/ReUP-HR",
-    "Background": "/assets/reupBG.jpg",
-    "Overlay": "$yello"
+    "Background": "/assets/BGs/reupBG.jpg",
+    "Overlay": "$yellow",
+    "Octocat": "/assets/Octocats/ironcat.png"
   },
   {
     "Name": "Shuriken",
@@ -41,11 +44,12 @@
     "Description": "Escape from shurikens",
     "Stack": ["D3"],
     "APIs": [],
-    "Screenshot": "/assets/shuriken.gif",
+    "Screenshot": "/assets/Screenshots/shuriken.gif",
     "Demo": "",
     "Github": "",
-    "Background": "/assets/shurikenBG.jpg",
-    "Overlay": "$red"
+    "Background": "/assets/BGs/shurikenBG.jpg",
+    "Overlay": "$red",
+    "Octocat": "/assets/Octocats/spidertocat.png"
   },
   {
     "Name": "Shufflr",
@@ -53,10 +57,11 @@
     "Description": "Engage others in a friendly competition testing both your trivia and word skills",
     "Stack": ["MongoDB", "Angular", "Express", "Node"],
     "APIs": [],
-    "Screenshot": "/assets/shufflr.gif",
+    "Screenshot": "/assets/Screenshots/shufflr.gif",
     "Demo": "",
     "Github": "",
-    "Background": "/assets/shufflrBG.jpg",
-    "Overlay": "$green"
+    "Background": "/assets/BGs/shufflrBG.jpg",
+    "Overlay": "$green",
+    "Octocat": "/assets/Octocats/waldocat.png"
   }
 ]
