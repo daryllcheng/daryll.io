@@ -9,6 +9,7 @@ const Intro = () => (
           <h1 className="introName">{ personal.Name }</h1>
           <h2 className="introTitle">{ personal.Title }</h2>
           <div className="introCity">{ personal.City }</div>
+          <a href="#Seethroughme" className="scrollDown imgReplace">scroll down</a>
         </div>
       </div>
     </div>

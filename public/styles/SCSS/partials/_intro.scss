@@ -19,4 +19,13 @@
     height: 100vh;
     @extend .hero;
   };
+
+  .scrollDown {
+    position: absolute;
+    @include center(x);
+    bottom: 20px;
+    width: 38px;
+    height: 44px;
+    background: url("/assets/arrow.png") no-repeat center center;
+  }
 }
