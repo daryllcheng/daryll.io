@@ -28,22 +28,24 @@
   @include size(auto 100px);
 }
 
+
+
 #Tie-Chai {
-  background: $color5;
+  @include project(white, $color2);
 }
 
 #Seethroughme {
-  background: $color2;
+  @include project(white, $color4);
 }
 
 #ReUp {
-  background: $color3;
+  @include project(white, $color1);
 }
 
 #Shuriken {
-  background: $color1;
+  @include project(white, $color4);
 }
 
 #Shufflr {
-  background: $color4;
+  @include project(white, $color2);
 }

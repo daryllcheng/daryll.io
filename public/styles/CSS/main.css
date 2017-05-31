@@ -451,19 +451,29 @@ nav a {
   width: auto; }
 
 #Tie-Chai {
-  background: rgba(230, 235, 224, 0.05); }
+  background: white; }
+  #Tie-Chai .overlay {
+    background: rgba(244, 241, 187, 0.5); }
 
 #Seethroughme {
-  background: rgba(244, 241, 187, 0.05); }
+  background: white; }
+  #Seethroughme .overlay {
+    background: rgba(92, 164, 169, 0.5); }
 
 #ReUp {
-  background: rgba(155, 193, 188, 0.05); }
+  background: white; }
+  #ReUp .overlay {
+    background: rgba(237, 106, 90, 0.5); }
 
 #Shuriken {
-  background: rgba(237, 106, 90, 0.05); }
+  background: white; }
+  #Shuriken .overlay {
+    background: rgba(92, 164, 169, 0.5); }
 
 #Shufflr {
-  background: rgba(92, 164, 169, 0.05); }
+  background: white; }
+  #Shufflr .overlay {
+    background: rgba(244, 241, 187, 0.5); }
 
 /* Susy Setup */
 .wrap {

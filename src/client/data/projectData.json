@@ -1,18 +1,5 @@
 [
   {
-    "Name": "Tie-Chai",
-    "Date": 2017,
-    "Description": "Built for professionals with an interest in expanding their network. Tie-Chai allows users to match with professionals with similar interests. Users can then form connections off mutual interest and communicate meetings and host events on a responsive interface.",
-    "Stack": ["React", "Redux", "Redis", "Golang", "PostgreSQL", "AWS S3", "Firebase", "Enzyme"],
-    "APIs": ["Yelp", "Google Maps"],
-    "Screenshot": "/assets/Screenshots/tiechai.gif",
-    "Demo": "tie-chai.com",
-    "Github": "https://github.com/Space-Pirahnas/tie-chai",
-    "Background": "/assets/BGs/tiechaiBG.jpg",
-    "Theme": "rgba(255, 224, 102, 1)",
-    "Octocat": "/assets/Octocats/breakingcat.png"
-  },
-  {
     "Name": "Seethroughme",
     "Date": 2017,
     "Description": "SeeThroughMe provides useful tools for beginner travelers who need help identifying and translating signs or objects in foreign countries. Users submit images to the app and receive a description, translate it to their preferred language, and then can hear the pronunciation of the translation. The application can be used in both web and mobile platforms, making it flexible for travelers on the go.",
@@ -24,6 +11,19 @@
     "Background": "/assets/BGs/seethroughmeBG.jpg",
     "Theme": "rgba(80, 81, 79, 1)",
     "Octocat": "/assets/Octocats/stormtroopocat.png"
+  },
+  {
+    "Name": "Tie-Chai",
+    "Date": 2017,
+    "Description": "Built for professionals with an interest in expanding their network. Tie-Chai allows users to match with professionals with similar interests. Users can then form connections off mutual interest and communicate meetings and host events on a responsive interface.",
+    "Stack": ["React", "Redux", "Redis", "Golang", "PostgreSQL", "AWS S3", "Firebase", "Enzyme"],
+    "APIs": ["Yelp", "Google Maps"],
+    "Screenshot": "/assets/Screenshots/tiechai.gif",
+    "Demo": "tie-chai.com",
+    "Github": "https://github.com/Space-Pirahnas/tie-chai",
+    "Background": "/assets/BGs/tiechaiBG.jpg",
+    "Theme": "rgba(255, 224, 102, 1)",
+    "Octocat": "/assets/Octocats/breakingcat.png"
   },
   {
     "Name": "ReUp",

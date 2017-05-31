@@ -1,0 +1,6 @@
+@mixin project($background, $overlay) {
+  background: $background;
+  .overlay {
+    background: $overlay
+  }
+}
