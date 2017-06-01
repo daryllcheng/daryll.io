@@ -468,25 +468,21 @@ h1, h2 {
     left: 50%;
     right: auto;
     -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
     transform: translateX(-50%);
     bottom: 20px;
     height: 44px;
     width: 38px;
     background: url("/assets/arrow.svg") no-repeat center center; }
+    #intro .scrollDown:hover {
+      cursor: pointer; }
 
-/* Desktop Nav */
+/* Desktop Nav  */
 .dotNav {
   position: fixed;
   right: 40px;
   top: 50%;
   bottom: auto;
   -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
   transform: translateY(-50%);
   z-index: 1; }
   .dotNav ul {
@@ -505,53 +501,39 @@ h1, h2 {
     .dotNav a span {
       float: right;
       display: inline-block;
-      -webkit-transform: scale(0.6);
-      -moz-transform: scale(0.6);
-      -ms-transform: scale(0.6);
-      -o-transform: scale(0.6);
-      transform: scale(0.6); }
+      -webkit-transform: scale(0.7);
+      transform: scale(0.7); }
     .dotNav a:hover span {
-      -webkit-transform: scale(1);
-      -moz-transform: scale(1);
-      -ms-transform: scale(1);
-      -o-transform: scale(1);
-      transform: scale(1); }
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+      cursor: pointer; }
     .dotNav a:hover .dotLabel {
       opacity: 1; }
-    .dotNav a.is-selected .dotLabel {
-      background-color: #fff; }
   .dotNav .dot {
     position: relative;
-    /* we set a top value in order to align the dot with the label. If you change label's font, you may need to change this top value*/
     top: 8px;
     height: 12px;
     width: 12px;
     border-radius: 50%;
-    background-color: #d88683;
-    -webkit-transition: -webkit-transform 0.2s, background-color 0.5s;
-    -moz-transition: -moz-transform 0.2s, background-color 0.5s;
+    background-color: rgba(92, 164, 169, 0.5);
+    transition: -webkit-transform 0.2s, background-color 0.5s;
     transition: transform 0.2s, background-color 0.5s;
     -webkit-transform-origin: 50% 50%;
-    -moz-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
-    -o-transform-origin: 50% 50%;
-    transform-origin: 50% 50%; }
+            transform-origin: 50% 50%; }
+  .dotNav .active .dot {
+    background-color: #3e3947; }
   .dotNav .dotLabel {
     position: relative;
     margin-right: 10px;
     padding: .4em .5em;
-    color: #fff;
+    color: #3e3947;
     font-size: 14px;
     font-size: 0.875rem;
-    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
-    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    transition: -webkit-transform 0.2s, opacity 0.2s;
     transition: transform 0.2s, opacity 0.2s;
     opacity: 0;
     -webkit-transform-origin: 100% 50%;
-    -moz-transform-origin: 100% 50%;
-    -ms-transform-origin: 100% 50%;
-    -o-transform-origin: 100% 50%;
-    transform-origin: 100% 50%; }
+            transform-origin: 100% 50%; }
 
 #footer .footerSocial i {
   padding: 20px;
@@ -612,7 +594,7 @@ h1, h2 {
   #Shufflr .overlay {
     background: rgba(244, 241, 187, 0.5); }
 
-/* Copied from Minimal-devices */
+/* Minimal-devices */
 .macbook {
   font-size: .4em;
   margin: 0 auto; }
@@ -681,5 +663,3 @@ h1, h2 {
     position: relative;
     background: #a6a8ad;
     border-radius: 0 0 0.625em 0.625em; }
-
-/*# sourceMappingURL=main.css.map */

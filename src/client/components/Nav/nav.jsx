@@ -7,7 +7,7 @@ const Nav = ({ projects }) => (
       { projects.map(project => 
         <li key={ project.Name }>
           <Link activeClass="active" to={ project.Name } spy={ true } smooth={ true } duration={ 500 } >
-            <span className="dot" />
+            <span className="dot"/>
             <span className="dotLabel">{ project.Name }</span>
           </Link>
         </li>

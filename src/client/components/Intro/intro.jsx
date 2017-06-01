@@ -1,5 +1,8 @@
 import React from 'react';
 import personal from '../../data/personal.json';
+import Scroll, { Link } from 'react-scroll';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import FlatButton from 'material-ui/FlatButton';
 
 const Intro = () => (
   <div className="section">
@@ -9,7 +12,10 @@ const Intro = () => (
           <h1 className="introName">{ personal.Name }</h1>
           <h2 className="introTitle">{ personal.Title }</h2>
           <div className="introCity">{ personal.City }</div>
-          <a href="#Seethroughme" className="scrollDown imgReplace">scroll down</a>
+          <MuiThemeProvider>
+            <FlatButton label="Resume" secondary={ true } href="/assets/resume.pdf" target="_blank" />
+          </MuiThemeProvider>
+          <Link className="scrollDown imgReplace" to="Seethroughme" smooth={ true } duration={ 800 } ></Link>
         </div>
       </div>
     </div>

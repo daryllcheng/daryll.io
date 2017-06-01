@@ -23,7 +23,7 @@ const Project = ({ project }) => {
               <a className="button" href={ project.Demo } target="_blank"> tie-chai.com</a>!
              </div> ) 
           : null }
-        <a href={ project.Github } target="_blank"><img className="octocat" src={ project.Octocat } /></a>
+        <a href={ project.Github } target="_blank"><img className="octocat" src={ project.Octocat } alt="Github" /></a>
       </div>
     </div>
   )

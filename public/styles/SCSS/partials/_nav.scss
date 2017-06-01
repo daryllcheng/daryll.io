@@ -1,5 +1,5 @@
-/* Desktop Nav */
-
+/* Desktop Nav  */
+//tutorial from https://codyhouse.co/gem/vertical-fixed-navigation/ 
 .dotNav {
 	position: fixed;
 	right: 40px;
@@ -17,53 +17,52 @@
 	a {
 		display: inline-block;
 		@include clearfix;
-
 		/* prevent weird movements on hover when you use a CSS3 transformation - webkit browsers */
 		@include backface-visibility(hidden);
 		
 		span {
 			float: right;
 			display: inline-block;
-			@include transform(scale(.6));
+			@include transform(scale(.7));
 		}
 
 		&:hover span {
-			@include transform(scale(1)); 
+			@include transform(scale(1.2)); 
+      cursor: pointer;
 		}
 
 		&:hover .dotLabel {
 			opacity: 1;
 		}
-
-		&.is-selected .dotLabel {
-			background-color: $color-4;
-		}
 	} 
 
 	.dot {
 		position: relative;
-		/* we set a top value in order to align the dot with the label. If you change label's font, you may need to change this top value*/
 		top: 8px;
     @include size(12px);
 		border-radius: 50%;
-		background-color: $color-3;
+		background-color: $color4;
 		-webkit-transition: -webkit-transform 0.2s, background-color 0.5s;
 		-moz-transition: -moz-transform 0.2s, background-color 0.5s;
 		transition: transform 0.2s, background-color 0.5s;
-		@include transform-origin(50% 50%);	
+		transform-origin: 50% 50%;	
 	}
+    .active {
+      .dot {
+        background-color: $darkPurple;
+      }
+    }
 
 	.dotLabel {
 		position: relative;
 		margin-right: 10px;
 		padding: .4em .5em;
-		color: $color-4;
+		color: $darkPurple;
 		@include font-size(14px);
-
 		-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
 		-moz-transition: -moz-transform 0.2s, opacity 0.2s;
 		transition: transform 0.2s, opacity 0.2s;
 		opacity: 0;
-		@include transform-origin(100% 50%);
+		transform-origin: 100% 50%;
 	}
 }

@@ -13,13 +13,22 @@ module.exports = function(grunt) {
       }
     },
 
+    autoprefixer: {
+      dist: {
+        files: {
+          'public/styles/CSS/main.css': 'public/styles/CSS/main.css'
+        }
+      }
+    },
+
     watch: {
       sass: {
         files: [
           'public/styles/SCSS/**/*.scss'
         ],
         tasks: [
-          'sass'
+          'sass', 
+          'autoprefixer'
         ]
       },
       scripts: {
