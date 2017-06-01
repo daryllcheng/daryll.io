@@ -20,17 +20,44 @@
     @extend .hero;
   };
 
-  .scrollDown {
+  .scrollWrapper {
     position: absolute;
     @include center(x);
     bottom: 20px;
+    @include size(100px);
     @include size(38px 44px);
-    background: url("/assets/arrow.svg") no-repeat center center;
+    
+    img {
+      background-repeat: no-repeat;
+      background-attachment: center;
+      background-position: center;
+    }
+
+    span {
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      right: 55%;
+      bottom: -5px;
+      font-size: 25px;
+      @include size(38px 44px);
+      @extend h1;
+      font-family: $sans-serif;
+    }
 
     &:hover {
       cursor: pointer;
+      img {
+        opacity: 0;
+      }
+
+      span {
+        opacity: 1;
+        visibility: visible;
+      }
     }
-  }
+
+  };
 
   .introName {
     @include fadeInUp(

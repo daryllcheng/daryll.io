@@ -14,7 +14,12 @@ const Intro = () => (
           <MuiThemeProvider >
             <FlatButton className="resume" label="resume" secondary={ true } href="/assets/resume.pdf" target="_blank" />
           </MuiThemeProvider>
-          <Link className="scrollDown imgReplace" to="Seethroughme" smooth={ true } duration={ 800 } ></Link>
+          <div className="scrollWrapper">
+            <Link className="scrollDown" to="Seethroughme" smooth={ true } duration={ 800 }>
+              <img src="/assets/arrow.svg" alt="Projects"/>
+              <span>Projects</span>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
