@@ -11,9 +11,8 @@ const Intro = () => (
         <div className="wrap">
           <h1 className="introName">{ personal.Name }</h1>
           <h2 className="introTitle">{ personal.Title }</h2>
-          <div className="introCity">{ personal.City }</div>
-          <MuiThemeProvider>
-            <FlatButton label="Resume" secondary={ true } href="/assets/resume.pdf" target="_blank" />
+          <MuiThemeProvider >
+            <FlatButton className="resume" label="resume" secondary={ true } href="/assets/resume.pdf" target="_blank" />
           </MuiThemeProvider>
           <Link className="scrollDown imgReplace" to="Seethroughme" smooth={ true } duration={ 800 } ></Link>
         </div>

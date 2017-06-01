@@ -6,7 +6,7 @@
   @include size(100% auto);
 
   .wrap {
-    padding: 60px 0;
+    padding: 30px 0;
   }
 }
 
@@ -30,5 +30,31 @@
     &:hover {
       cursor: pointer;
     }
+  }
+
+  .introName {
+    @include fadeInUp(
+      $duration: 3s,
+      $delay: .3s,
+      $function: ease
+    );
+    @include font-size(100px);
+  };
+
+  .introTitle {
+    @include fadeInDown(
+      $duration: 3s,
+      $delay: .3s,
+      $function: ease
+    );
+    @include font-size(30px);
+  }
+
+  .resume {
+    @include fadeIn(
+      $duration: 3s,
+      $delay: 1.5s,
+      $function: ease
+    );
   }
 }

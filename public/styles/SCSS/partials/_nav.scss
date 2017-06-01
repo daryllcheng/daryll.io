@@ -17,8 +17,6 @@
 	a {
 		display: inline-block;
 		@include clearfix;
-		/* prevent weird movements on hover when you use a CSS3 transformation - webkit browsers */
-		@include backface-visibility(hidden);
 		
 		span {
 			float: right;

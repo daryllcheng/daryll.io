@@ -10,9 +10,14 @@ body {
   position: relative;
 }
 
-h1, h2 {
+h1 {
   font-family: $serif;
   text-align: center;
   color: white;
+}
+
+h2 {
+  @extend h1;
+  font-family: $sans-serif;
 }
 

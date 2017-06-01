@@ -38,7 +38,7 @@ section {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-h1 {
+h1, h2 {
   font-size: 2em;
   margin: 0.67em 0; }
 
@@ -390,6 +390,58 @@ template {
 [hidden] {
   display: none; }
 
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
 /* Color Palatte */
 /* Font */
 /* Breakpoints */
@@ -408,6 +460,9 @@ h1, h2 {
   font-family: "Playfair Display", serif;
   text-align: center;
   color: white; }
+
+h2 {
+  font-family: "Raleway", sans-serif; }
 
 /* replace text with a background-image */
 .imgReplace {
@@ -456,7 +511,7 @@ h1, h2 {
   height: auto;
   width: 100%; }
   .hero .wrap, #intro .wrap, #footer .wrap {
-    padding: 60px 0; }
+    padding: 30px 0; }
 
 #intro {
   height: 100vh; }
@@ -475,6 +530,61 @@ h1, h2 {
     background: url("/assets/arrow.svg") no-repeat center center; }
     #intro .scrollDown:hover {
       cursor: pointer; }
+  #intro .introName {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    font-size: 100px;
+    font-size: 6.25rem; }
+  #intro .introTitle {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    font-size: 30px;
+    font-size: 1.875rem; }
+  #intro .resume {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden; }
 
 /* Desktop Nav  */
 .dotNav {
@@ -490,10 +600,7 @@ h1, h2 {
   .dotNav li {
     text-align: right; }
   .dotNav a {
-    display: inline-block;
-    /* prevent weird movements on hover when you use a CSS3 transformation - webkit browsers */
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden; }
+    display: inline-block; }
     .dotNav a::after {
       clear: both;
       content: "";
@@ -570,41 +677,41 @@ h1, h2 {
   width: auto; }
 
 #Tie-Chai {
-  background: white; }
+  background: #fff; }
   #Tie-Chai .overlay {
     background: rgba(244, 241, 187, 0.5); }
 
 #Seethroughme {
-  background: white; }
+  background: #fff; }
   #Seethroughme .overlay {
     background: rgba(92, 164, 169, 0.5); }
 
 #ReUp {
-  background: white; }
+  background: #fff; }
   #ReUp .overlay {
     background: rgba(237, 106, 90, 0.5); }
 
 #Shuriken {
-  background: white; }
+  background: #fff; }
   #Shuriken .overlay {
     background: rgba(92, 164, 169, 0.5); }
 
 #Shufflr {
-  background: white; }
+  background: #fff; }
   #Shufflr .overlay {
     background: rgba(244, 241, 187, 0.5); }
 
 /* Minimal-devices */
-.macbook {
+.md-macbook-pro {
   font-size: .4em;
-  margin: 0 auto; }
+  margin: 20px auto 0 auto; }
   @media (min-width: 840px) and (max-width: 1159px) {
-    .macbook {
-      font-size: 1em; } }
+    .md-macbook-pro {
+      font-size: .7em; } }
   @media (min-width: 1160px) {
-    .macbook {
-      font-size: 1.3em; } }
-  .macbook .md-macbook-pro .md-lid {
+    .md-macbook-pro {
+      font-size: 1em; } }
+  .md-macbook-pro .md-lid {
     height: 30.625em;
     width: 45em;
     margin: 0 auto;
@@ -612,7 +719,7 @@ h1, h2 {
     border-radius: 1.875em;
     border: solid 0.1875em #cdced1;
     background: #131313; }
-  .macbook .md-macbook-pro .md-camera {
+  .md-macbook-pro .md-camera {
     height: 0.375em;
     width: 0.375em;
     margin: 0 auto;
@@ -621,7 +728,7 @@ h1, h2 {
     background: #000;
     border-radius: 100%;
     box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.25); }
-  .macbook .md-macbook-pro .md-camera:after {
+  .md-macbook-pro .md-camera:after {
     content: "";
     display: block;
     height: 0.125em;
@@ -631,20 +738,25 @@ h1, h2 {
     top: 0.0625em;
     background: #353542;
     border-radius: 100%; }
-  .macbook .md-macbook-pro .md-screen {
+  .md-macbook-pro .md-screen {
     height: 26.375em;
     width: 42.25em;
     margin: 0 auto;
     position: relative;
     top: 2.0625em;
     background: #1d1d1d; }
-  .macbook .md-macbook-pro .md-base {
+  .md-macbook-pro .md-base {
     height: 0.9375em;
     width: 100%;
+    margin: 0 auto;
     position: relative;
     top: -0.75em;
     background: #c6c7ca; }
-  .macbook .md-macbook-pro .md-base:after {
+    @media (min-width: 1160px) {
+      .md-macbook-pro .md-base {
+        height: 0.9375em;
+        width: 75%; } }
+  .md-macbook-pro .md-base:after {
     content: "";
     display: block;
     height: 0.5em;
@@ -654,7 +766,7 @@ h1, h2 {
     bottom: -0.1875em;
     background: #b9babe;
     border-radius: 0 0 1.25em 1.25em; }
-  .macbook .md-macbook-pro .md-base:before {
+  .md-macbook-pro .md-base:before {
     content: "";
     display: block;
     height: 0.625em;
