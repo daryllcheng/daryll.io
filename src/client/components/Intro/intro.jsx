@@ -17,7 +17,7 @@ const Intro = () => (
           <div className="scrollWrapper">
             <Link className="scrollDown" to="Seethroughme" smooth={ true } duration={ 800 }>
               <img src="/assets/arrow.svg" alt="Projects"/>
-              <span>Projects</span>
+              <span className="scrollProject">Projects</span>
             </Link>
           </div>
         </div>

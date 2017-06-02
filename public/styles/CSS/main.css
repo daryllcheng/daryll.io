@@ -464,6 +464,28 @@ template {
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px); } }
 
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
 /* Color Palatte */
 /* Font */
 /* Breakpoints */
@@ -485,6 +507,22 @@ h1, h2, #intro .scrollWrapper span {
 
 h2 {
   font-family: "Raleway", sans-serif; }
+
+.icon, .octocat, .fa, .scrollProject, .resume {
+  /* Safari and Chrome */
+  /* Firefox */
+  /* IE 9 */
+  /* Opera */
+  transition: all .3s ease; }
+  .icon:hover, .octocat:hover, .fa:hover, .scrollProject:hover, .resume:hover {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.2);
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transform: translatZ(0) scale(1.2); }
 
 /* replace text with a background-image */
 /* Susy Setup */
