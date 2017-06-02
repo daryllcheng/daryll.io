@@ -4,13 +4,18 @@
   @include size(auto 100%);
 }
 
-.icon, .bracket {
+.bracket {
   padding: 5px;
   @include size(auto 33px);
   @include susy-breakpoint($medium) {
     padding: 20px;
     @include size(auto 50px);
   }
+}
+
+.icon {
+  @extend .bracket;
+  @include pulsate;
 }
 
 .label {
@@ -26,10 +31,14 @@
 .octocat {
   margin: 10px;
   @include size(auto 100px);
+  @include pulsate;
 }
 
 #Tie-Chai {
   @include project($color3, $white);
+  a {
+    text-decoration: none;
+  }
 }
 
 #Seethroughme {

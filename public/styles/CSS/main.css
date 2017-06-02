@@ -464,28 +464,6 @@ template {
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px); } }
 
-@-webkit-keyframes pulse {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1); }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1); } }
-
-@keyframes pulse {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1); }
-  50% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1); }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1); } }
-
 /* Color Palatte */
 /* Font */
 /* Breakpoints */
@@ -504,22 +482,6 @@ h1, h2, #intro .scrollWrapper span {
   font-family: "Playfair Display", serif;
   text-align: center;
   color: white; }
-
-.icon, .octocat, .fa, .scrollProject, .resume {
-  /* Safari and Chrome */
-  /* Firefox */
-  /* IE 9 */
-  /* Opera */
-  transition: all .3s ease; }
-  .icon:hover, .octocat:hover, .fa:hover, .scrollProject:hover, .resume:hover {
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transform: translateZ(0) scale(1.2);
-    /* Safari and Chrome */
-    /* Firefox */
-    /* IE 9 */
-    /* Opera */
-    transform: translatZ(0) scale(1.2); }
 
 /* replace text with a background-image */
 /* Susy Setup */
@@ -609,7 +571,21 @@ h1, h2, #intro .scrollWrapper span {
       font-size: 25px;
       height: 44px;
       width: 38px;
+      /* Safari and Chrome */
+      /* Firefox */
+      /* IE 9 */
+      /* Opera */
+      transition: all .3s ease;
       font-family: "Raleway", sans-serif; }
+      #intro .scrollWrapper span:hover {
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transform: translateZ(0) scale(1.2);
+        /* Safari and Chrome */
+        /* Firefox */
+        /* IE 9 */
+        /* Opera */
+        transform: translatZ(0) scale(1.2); }
     #intro .scrollWrapper:hover {
       cursor: pointer; }
       #intro .scrollWrapper:hover img {
@@ -659,6 +635,11 @@ h1, h2, #intro .scrollWrapper span {
     font-size: 30px;
     font-size: 1.875rem; }
   #intro .resume {
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transition: all .3s ease;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
     -webkit-animation-iteration-count: 1;
@@ -675,6 +656,15 @@ h1, h2, #intro .scrollWrapper span {
     -ms-backface-visibility: hidden;
     -o-backface-visibility: hidden;
     backface-visibility: hidden; }
+    #intro .resume:hover {
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -webkit-transform: translateZ(0) scale(1.2);
+      /* Safari and Chrome */
+      /* Firefox */
+      /* IE 9 */
+      /* Opera */
+      transform: translatZ(0) scale(1.2); }
 
 /* Desktop Nav  */
 .dotNav {
@@ -735,7 +725,21 @@ h1, h2, #intro .scrollWrapper span {
 #footer .footerSocial i {
   padding: 20px;
   color: #fff;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  /* Safari and Chrome */
+  /* Firefox */
+  /* IE 9 */
+  /* Opera */
+  transition: all .3s ease; }
+  #footer .footerSocial i:hover {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.2);
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transform: translatZ(0) scale(1.2); }
 
 .screenshot {
   margin: auto;
@@ -743,15 +747,31 @@ h1, h2, #intro .scrollWrapper span {
   height: 100%;
   width: auto; }
 
-.icon, .bracket {
+.bracket, .icon {
   padding: 5px;
   height: 33px;
   width: auto; }
   @media (min-width: 840px) {
-    .icon, .bracket {
+    .bracket, .icon {
       padding: 20px;
       height: 50px;
       width: auto; } }
+
+.icon {
+  /* Safari and Chrome */
+  /* Firefox */
+  /* IE 9 */
+  /* Opera */
+  transition: all .3s ease; }
+  .icon:hover {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.2);
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transform: translatZ(0) scale(1.2); }
 
 .label {
   display: block;
@@ -764,7 +784,21 @@ h1, h2, #intro .scrollWrapper span {
 .octocat {
   margin: 10px;
   height: 100px;
-  width: auto; }
+  width: auto;
+  /* Safari and Chrome */
+  /* Firefox */
+  /* IE 9 */
+  /* Opera */
+  transition: all .3s ease; }
+  .octocat:hover {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.2);
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transform: translatZ(0) scale(1.2); }
 
 #Tie-Chai {
   background: #fff; }
@@ -772,6 +806,8 @@ h1, h2, #intro .scrollWrapper span {
     color: #fff; }
   #Tie-Chai .overlay {
     background: rgba(155, 193, 188, 0.5); }
+  #Tie-Chai a {
+    text-decoration: none; }
 
 #Seethroughme {
   background: #fff; }
