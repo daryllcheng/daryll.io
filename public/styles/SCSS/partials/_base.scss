@@ -1,0 +1,21 @@
+body {
+  color: black;
+  font-family: $sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.section {
+  @include size(100% auto);
+  position: relative;
+}
+
+h1 {
+  font-family: $serif;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  @extend h1;
+}

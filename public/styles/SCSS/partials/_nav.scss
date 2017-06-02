@@ -1,0 +1,66 @@
+/* Desktop Nav  */
+//tutorial from https://codyhouse.co/gem/vertical-fixed-navigation/ 
+.dotNav {
+	position: fixed;
+	right: 40px;
+	z-index: 1;
+	@include center(y); 
+
+  ul {
+    list-style: none;
+  }
+
+	li {
+		text-align: right;
+	}
+
+	a {
+		display: inline-block;
+		@include clearfix;
+		
+		span {
+			float: right;
+			display: inline-block;
+			@include transform(scale(.7));
+		}
+
+		&:hover span {
+      cursor: pointer;
+			@include transform(scale(1.2)); 
+		}
+
+		&:hover .dotLabel {
+			opacity: 1;
+		}
+	} 
+
+	.dot {
+		position: relative;
+		top: 8px;
+		border-radius: 50%;
+		background-color: $color4;
+		-webkit-transition: -webkit-transform 0.2s, background-color 0.5s;
+		-moz-transition: -moz-transform 0.2s, background-color 0.5s;
+		transition: transform 0.2s, background-color 0.5s;
+		transform-origin: 50% 50%;	
+    @include size(12px);
+	}
+    .active {
+      .dot {
+        background-color: $darkPurple;
+      }
+    }
+
+	.dotLabel {
+		position: relative;
+		margin-right: 10px;
+		padding: .4em .5em;
+		color: $darkPurple;
+		-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+		-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+		transition: transform 0.2s, opacity 0.2s;
+		opacity: 0;
+		transform-origin: 100% 50%;
+		@include font-size(14px);
+	}
+}

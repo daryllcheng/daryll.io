@@ -1,0 +1,14 @@
+#footer {
+  @extend .hero;
+
+  .footerSocial {
+    
+    i {
+      padding: 20px;
+      color: #fff;
+      font-size: 1.5em;
+      @include pulsate;
+    }
+  }
+}
+

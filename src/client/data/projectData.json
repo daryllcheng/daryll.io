@@ -1,0 +1,62 @@
+[
+  {
+    "Name": "Seethroughme",
+    "Date": 2017,
+    "Description": "SeeThroughMe provides useful tools for beginner travelers who need help identifying and translating signs or objects in foreign countries. Users submit images to the app and receive a description, translate it to their preferred language, and then can hear the pronunciation of the translation. The application can be used in both web and mobile platforms, making it flexible for travelers on the go.",
+    "Stack": ["React", "Node", "Express"],
+    "APIs": ["IBM Watson Text to Speech", "Google Cloud Translation", "IBM Watson Visual Recognition", "Google Tesseract OCR"],
+    "Screenshot": "/assets/Screenshots/seethroughme.gif",
+    "Demo": "",
+    "Github": "https://github.com/daryllcheng/seethroughme",
+    "Background": "/assets/BGs/seethroughmeBG.jpg",
+    "Octocat": "/assets/Octocats/stormtroopocat.png"
+  },
+  {
+    "Name": "Tie-Chai",
+    "Date": 2017,
+    "Description": "Built for professionals with an interest in expanding their network. Tie-Chai allows users to match with professionals with similar interests. Users can then form connections off mutual interest and communicate meetings and host events on a responsive interface.",
+    "Stack": ["React", "Redux", "Redis", "Golang", "PostgreSQL", "AWS S3", "Firebase", "Enzyme"],
+    "APIs": ["Yelp", "Google Maps"],
+    "Screenshot": "/assets/Screenshots/tiechai.gif",
+    "Demo": "http://tie-chai.com/#/",
+    "Github": "https://github.com/Space-Pirahnas/tie-chai",
+    "Background": "/assets/BGs/tiechaiBG.jpg",
+    "Octocat": "/assets/Octocats/breakingcat.png"
+  },
+  {
+    "Name": "ReUp",
+    "Date": 2017,
+    "Description": "ReUP is a video game news, media and information aggregator focused towards gamers who want to get the latest and greatest on their favorite games. The project was built using React w/ react-router and queries multiple third-party gaming site APIs via AJAX and axios library to consolidate all relevant and most recent trends on the game into one page so the user doesn't have to go to multiple sites to search for what they want.",
+    "Stack": ["React", "Node", "MySQL", "Express"],
+    "APIs": ["Youtube", "Reddit", "Twitter", "Twitch", "IGN", "Giant Bomb", "Polygon"],
+    "Screenshot": "/assets/Screenshots/reup.gif",
+    "Demo": "",
+    "Github": "https://github.com/ReUP-HR/ReUP-HR",
+    "Background": "/assets/BGs/reupBG.jpg",
+    "Octocat": "/assets/Octocats/ironcat.png"
+  },
+  {
+    "Name": "Shuriken",
+    "Date": 2017,
+    "Description": "In this fictional world of ninjas and tailed beasts, users will attempt to help our ninja protagonist dodge and escape a series of shuriken attacks. This game leverages the data visualization capability of D3.js to manipulate SVGs and detect collisions between the player and its enemies. Players will take turns to attain the highest possible score before their health bar reaches 0.",
+    "Stack": ["D3"],
+    "APIs": [],
+    "Screenshot": "/assets/Screenshots/shuriken.gif",
+    "Demo": "",
+    "Github": "https://github.com/daryllcheng",
+    "Background": "/assets/BGs/shurikenBG.jpg",
+    "Octocat": "/assets/Octocats/spidertocat.png"
+  },
+  {
+    "Name": "Shufflr",
+    "Date": 2017,
+    "Description": "Shufflr is a MEAN stack application completed within a 24-hour deadline. It is a turn-based party game testing your trivia knowledge or perhaps the psyhic connection you have with your friends. A player will provide a phrase or a word as well as a corresponding clue. The same player will then select any of the provided transformers to shuffle or scramble the word. The now unrecognizable word will be passed on to the next person who will attempt to make a reasonable guess based on the given clue. The game has an additional feature for cinephiles out there. You can click on the movie generator button to randomly pull a movie title and a memorable quote from the database.",
+    "Stack": ["MongoDB", "Angular", "Express", "Node"],
+    "APIs": [],
+    "Screenshot": "/assets/Screenshots/shufflr.gif",
+    "Demo": "",
+    "Github": "https://github.com/daryllcheng",
+    "Background": "/assets/BGs/shufflrBG.jpg",
+    "Octocat": "/assets/Octocats/waldocat.png"
+  }
+]

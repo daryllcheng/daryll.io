@@ -1,0 +1,58 @@
+.screenshot {
+  margin: auto;
+  display: block;
+  @include size(auto 100%);
+}
+
+.bracket {
+  padding: 5px;
+  @include size(auto 33px);
+  @include susy-breakpoint($medium) {
+    padding: 20px;
+    @include size(auto 50px);
+  }
+}
+
+.icon {
+  @extend .bracket;
+  @include pulsate;
+}
+
+.label {
+  display: block;
+  margin-top: 10px;
+
+  @include susy-breakpoint($medium) {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.octocat {
+  margin: 10px;
+  @include size(auto 100px);
+  @include pulsate;
+}
+
+#Tie-Chai {
+  @include project($color3, $white);
+  a {
+    text-decoration: none;
+  }
+}
+
+#Seethroughme {
+  @include project($color4, $white);
+}
+
+#ReUp {
+  @include project($color4, $white);
+}
+
+#Shuriken {
+  @include project($color4, $white);
+}
+
+#Shufflr {
+  @include project($color3, $white);
+}

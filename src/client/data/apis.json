@@ -1,0 +1,67 @@
+[
+  {
+    "Name": "Giant Bomb",
+    "Icon": "/assets/APIs/giantBomb.png",
+    "Link": "https://www.giantbomb.com/api/"
+  },
+  {
+    "Name": "Google Maps",
+    "Icon": "/assets/APIs/googleMaps.png",
+    "Link": "https://developers.google.com/maps/"
+  },
+  {
+    "Name": "Google Tesseract OCR",
+    "Icon": "/assets/APIs/googleOCR.png",
+    "Link": "https://github.com/tesseract-ocr/tesseract"
+  },
+  {
+    "Name": "Google Cloud Translation",
+    "Icon": "/assets/APIs/googletranslate.png",
+    "Link": "https://cloud.google.com/translate/docs/"
+  },
+  {
+    "Name": "Reddit",
+    "Icon": "/assets/APIs/reddit.png",
+    "Link": "https://www.reddit.com/dev/api/"
+  },
+  {
+    "Name": "IBM Watson Text to Speech",
+    "Icon": "/assets/APIs/textToSpeech.png",
+    "Link": "https://www.ibm.com/watson/developercloud/text-to-speech.html"
+  },
+  {
+    "Name": "IBM Watson Visual Recognition",
+    "Icon": "/assets/APIs/watsonVR.png",
+    "Link": "https://www.ibm.com/watson/developercloud/visual-recognition.html"
+  },
+  {
+    "Name": "IGN",
+    "Icon": "/assets/APIs/ign.png",
+    "Link": "https://newsapi.org/ign-api"
+  },
+  {
+    "Name": "Polygon",
+    "Icon": "/assets/APIs/polygon.png",
+    "Link": "https://newsapi.org/polygon-api"
+  },
+  {
+    "Name": "Twitch",
+    "Icon": "/assets/APIs/twitch.png",
+    "Link": "https://dev.twitch.tv/"
+  },
+  {
+    "Name": "Twitter",
+    "Icon": "/assets/APIs/twitter.png",
+    "Link": "https://dev.twitter.com/rest/public"
+  },
+  {
+    "Name": "Yelp",
+    "Icon": "/assets/APIs/yelp.png",
+    "Link": "https://www.yelp.com/developers/documentation/v2/overview"
+  },
+  {
+    "Name": "Youtube",
+    "Icon": "/assets/APIs/youtube.png",
+    "Link": "https://developers.google.com/youtube/"
+  }
+]

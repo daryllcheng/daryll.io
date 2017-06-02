@@ -1,0 +1,30 @@
+/* Susy Setup */
+$susy: (
+  columns: 12,
+  gutters: 1/6,
+  global-box-sizing: border-box
+);
+
+.wrap {
+  text-align: center;
+  @include container(80%);
+
+  .macbook {
+    margin-top: 30px;
+  }
+
+  .icons {
+    display: table;
+    @include container(100%);
+  }
+
+  .projectDescription {
+    padding: 20px;
+    text-align: left;
+    @include susy-breakpoint($medium) {
+      @include span(8);
+      @include push(2);
+      @include post(2);
+    }
+  }
+}

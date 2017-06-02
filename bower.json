@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "description": "personal website",
+  "main": "index.js",
+  "authors": [
+    "Daryll"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/daryllcheng/portfolio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bourbon": "^4.3.4",
+    "susy": "^2.2.12",
+    "normalize-css": "^7.0.0"
+  }
+}
