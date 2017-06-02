@@ -29,7 +29,7 @@
     "Description": "ReUP is a video game news, media and information aggregator focused towards gamers who want to get the latest and greatest on their favorite games. The project was built using React w/ react-router and queries multiple third-party gaming site APIs via AJAX and axios library to consolidate all relevant and most recent trends on the game into one page so the user doesn't have to go to multiple sites to search for what they want.",
     "Stack": ["React", "Node", "MySQL", "Express"],
     "APIs": ["Youtube", "Reddit", "Twitter", "Twitch", "IGN", "Giant Bomb", "Polygon"],
-    "Screenshot": "/assets/Screenshots/tiechai.gif",
+    "Screenshot": "/assets/Screenshots/reup.gif",
     "Demo": "",
     "Github": "https://github.com/ReUP-HR/ReUP-HR",
     "Background": "/assets/BGs/reupBG.jpg",

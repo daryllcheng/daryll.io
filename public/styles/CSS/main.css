@@ -768,28 +768,38 @@ h1, h2, #intro .scrollWrapper span {
 
 #Tie-Chai {
   background: #fff; }
+  #Tie-Chai h2 {
+    color: #fff; }
   #Tie-Chai .overlay {
-    background: rgba(244, 241, 187, 0.5); }
+    background: rgba(155, 193, 188, 0.5); }
 
 #Seethroughme {
   background: #fff; }
+  #Seethroughme h2 {
+    color: #fff; }
   #Seethroughme .overlay {
     background: rgba(92, 164, 169, 0.5); }
 
 #ReUp {
   background: #fff; }
+  #ReUp h2 {
+    color: #fff; }
   #ReUp .overlay {
-    background: rgba(237, 106, 90, 0.5); }
+    background: rgba(92, 164, 169, 0.5); }
 
 #Shuriken {
   background: #fff; }
+  #Shuriken h2 {
+    color: #fff; }
   #Shuriken .overlay {
     background: rgba(92, 164, 169, 0.5); }
 
 #Shufflr {
   background: #fff; }
+  #Shufflr h2 {
+    color: #fff; }
   #Shufflr .overlay {
-    background: rgba(244, 241, 187, 0.5); }
+    background: rgba(155, 193, 188, 0.5); }
 
 /* Minimal-devices */
 .md-macbook-pro {

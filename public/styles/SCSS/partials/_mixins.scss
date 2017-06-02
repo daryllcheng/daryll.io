@@ -1,5 +1,8 @@
-@mixin project($overlay) {
+@mixin project($overlay, $fontColor) {
   background: $white;
+  h2 {
+    color: $fontColor;
+  }
   .overlay {
     background: $overlay
   }

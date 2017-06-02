@@ -29,21 +29,21 @@
 }
 
 #Tie-Chai {
-  @include project($color2);
+  @include project($color3, $white);
 }
 
 #Seethroughme {
-  @include project($color4);
+  @include project($color4, $white);
 }
 
 #ReUp {
-  @include project($color1);
+  @include project($color4, $white);
 }
 
 #Shuriken {
-  @include project($color4);
+  @include project($color4, $white);
 }
 
 #Shufflr {
-  @include project($color2);
+  @include project($color3, $white);
 }
