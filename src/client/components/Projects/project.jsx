@@ -6,7 +6,7 @@ const Project = ({ project }) => {
   return (
     <div id={ project.Name } className="section">
       <div className="hero" style={{ "backgroundImage": `url(${ project.Background })` }} >
-        <div className="overlay" style={{ "background": `rgba(${ project.Theme }, .8)` }}>
+        <div className="overlay">
           <div className="wrap">
             <h2>{ project.Name }</h2>
           </div>

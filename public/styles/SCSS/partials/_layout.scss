@@ -22,9 +22,9 @@ $susy: (
     padding: 20px;
     text-align: left;
     @include susy-breakpoint($medium) {
-      @include span(6);
-      @include push(3);
-      @include post(3);
+      @include span(8);
+      @include push(2);
+      @include post(2);
     }
   }
 }

@@ -77,6 +77,7 @@
   };
 
   .introTitle {
+    font-family: $sans-serif;
     @include fadeInDown(
       $duration: 3s,
       $delay: .3s,
