@@ -66,6 +66,8 @@
   };
 
   .introName {
+    margin-top: 100px;
+    margin-bottom: 0;
     @include fadeInUp(
       $duration: 3s,
       $delay: .3s,

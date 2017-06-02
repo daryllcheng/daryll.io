@@ -621,6 +621,8 @@ h2 {
         opacity: 1;
         visibility: visible; }
   #intro .introName {
+    margin-top: 100px;
+    margin-bottom: 0;
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
     -webkit-animation-iteration-count: 1;
