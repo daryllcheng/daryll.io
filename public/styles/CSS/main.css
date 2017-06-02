@@ -467,6 +467,11 @@ template {
 /* Color Palatte */
 /* Font */
 /* Breakpoints */
+/* Project */
+/* border radius */
+/* Pulsate Animation */
+/* Center elements */
+/* rem fallback - credits: http://zerosixthree.se/ */
 body {
   color: black;
   font-family: "Raleway", sans-serif;
@@ -483,7 +488,6 @@ h1, h2, #intro .scrollWrapper span {
   text-align: center;
   color: white; }
 
-/* replace text with a background-image */
 /* Susy Setup */
 .wrap {
   text-align: center;
@@ -533,11 +537,11 @@ h1, h2, #intro .scrollWrapper span {
     height: 100vh; }
   #intro .scrollWrapper {
     position: absolute;
+    bottom: 20px;
     left: 50%;
     right: auto;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    bottom: 20px;
     height: 100px;
     width: 100px;
     height: 44px;
@@ -569,14 +573,14 @@ h1, h2, #intro .scrollWrapper span {
       right: 55%;
       bottom: -5px;
       font-size: 25px;
+      font-family: "Raleway", sans-serif;
       height: 44px;
       width: 38px;
       /* Safari and Chrome */
       /* Firefox */
       /* IE 9 */
       /* Opera */
-      transition: all .3s ease;
-      font-family: "Raleway", sans-serif; }
+      transition: all .3s ease; }
       #intro .scrollWrapper span:hover {
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
@@ -596,6 +600,8 @@ h1, h2, #intro .scrollWrapper span {
   #intro .introName {
     margin-top: 100px;
     margin-bottom: 0;
+    font-size: 100px;
+    font-size: 6.25rem;
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
     -webkit-animation-iteration-count: 1;
@@ -611,11 +617,11 @@ h1, h2, #intro .scrollWrapper span {
     -webkit-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     -o-backface-visibility: hidden;
-    backface-visibility: hidden;
-    font-size: 100px;
-    font-size: 6.25rem; }
+    backface-visibility: hidden; }
   #intro .introTitle {
     font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-size: 1.875rem;
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
     -webkit-animation-iteration-count: 1;
@@ -631,9 +637,7 @@ h1, h2, #intro .scrollWrapper span {
     -webkit-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     -o-backface-visibility: hidden;
-    backface-visibility: hidden;
-    font-size: 30px;
-    font-size: 1.875rem; }
+    backface-visibility: hidden; }
   #intro .resume {
     /* Safari and Chrome */
     /* Firefox */
@@ -670,11 +674,11 @@ h1, h2, #intro .scrollWrapper span {
 .dotNav {
   position: fixed;
   right: 40px;
+  z-index: 1;
   top: 50%;
   bottom: auto;
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  z-index: 1; }
+  transform: translateY(-50%); }
   .dotNav ul {
     list-style: none; }
   .dotNav li {
@@ -691,22 +695,22 @@ h1, h2, #intro .scrollWrapper span {
       -webkit-transform: scale(0.7);
       transform: scale(0.7); }
     .dotNav a:hover span {
+      cursor: pointer;
       -webkit-transform: scale(1.2);
-      transform: scale(1.2);
-      cursor: pointer; }
+      transform: scale(1.2); }
     .dotNav a:hover .dotLabel {
       opacity: 1; }
   .dotNav .dot {
     position: relative;
     top: 8px;
-    height: 12px;
-    width: 12px;
     border-radius: 50%;
     background-color: rgba(92, 164, 169, 0.5);
     transition: -webkit-transform 0.2s, background-color 0.5s;
     transition: transform 0.2s, background-color 0.5s;
     -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%; }
+            transform-origin: 50% 50%;
+    height: 12px;
+    width: 12px; }
   .dotNav .active .dot {
     background-color: #3e3947; }
   .dotNav .dotLabel {
@@ -714,13 +718,13 @@ h1, h2, #intro .scrollWrapper span {
     margin-right: 10px;
     padding: .4em .5em;
     color: #3e3947;
-    font-size: 14px;
-    font-size: 0.875rem;
     transition: -webkit-transform 0.2s, opacity 0.2s;
     transition: transform 0.2s, opacity 0.2s;
     opacity: 0;
     -webkit-transform-origin: 100% 50%;
-            transform-origin: 100% 50%; }
+            transform-origin: 100% 50%;
+    font-size: 14px;
+    font-size: 0.875rem; }
 
 #footer .footerSocial i {
   padding: 20px;

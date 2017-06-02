@@ -1,3 +1,5 @@
+/* Project */
+
 @mixin project($overlay, $fontColor) {
   background: $white;
   h2 {
@@ -8,7 +10,33 @@
   }
 }
 
-// center vertically and/or horizontally an absolute positioned element
+/* border radius */
+
+@mixin border-radius($radius:.25em) {
+  border-radius: $radius;
+}
+
+/* Pulsate Animation */
+
+@mixin pulsate {
+  -webkit-transition: all .3s ease; /* Safari and Chrome */
+  -moz-transition: all .3s ease; /* Firefox */
+  -o-transition: all .3s ease; /* IE 9 */
+  -ms-transition: all .3s ease; /* Opera */
+  transition: all .3s ease;
+
+  &:hover {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform:translateZ(0) scale(1.20); /* Safari and Chrome */
+    -moz-transform:scale(1.20); /* Firefox */
+    -ms-transform:scale(1.20); /* IE 9 */
+    -o-transform:translatZ(0) scale(1.20); /* Opera */
+    transform:translatZ(0) scale(1.20);
+  }
+}
+
+/* Center elements */
 
 @mixin center($xy:xy) {
   @if $xy == xy {
@@ -30,7 +58,7 @@
   }
 }
 
-// rem fallback - credits: http://zerosixthree.se/
+/* rem fallback - credits: http://zerosixthree.se/ */
 
 @function calculateRem($size) {
   $remSize: $size / 16px;
@@ -42,27 +70,3 @@
   font-size: calculateRem($size);
 }
 
-// border radius
-
-@mixin border-radius($radius:.25em) {
-  border-radius: $radius;
-}
-
-
-@mixin pulsate {
-  -webkit-transition: all .3s ease; /* Safari and Chrome */
-  -moz-transition: all .3s ease; /* Firefox */
-  -o-transition: all .3s ease; /* IE 9 */
-  -ms-transition: all .3s ease; /* Opera */
-  transition: all .3s ease;
-
-  &:hover {
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transform:translateZ(0) scale(1.20); /* Safari and Chrome */
-    -moz-transform:scale(1.20); /* Firefox */
-    -ms-transform:scale(1.20); /* IE 9 */
-    -o-transform:translatZ(0) scale(1.20); /* Opera */
-    transform:translatZ(0) scale(1.20);
-  }
-}

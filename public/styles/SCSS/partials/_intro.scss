@@ -11,8 +11,8 @@
 }
 
 #intro {
-  @extend .hero;
   height: 100vh;
+  @extend .hero;
 
   .overlay {
     background: rgba($brown, .2);
@@ -22,8 +22,8 @@
 
   .scrollWrapper {
     position: absolute;
-    @include center(x);
     bottom: 20px;
+    @include center(x);
     @include size(100px);
     @include size(38px 44px);
     
@@ -31,6 +31,7 @@
       background-repeat: no-repeat;
       background-attachment: center;
       background-position: center;
+      
       @include bounce(
         $duration: 3s,
         $delay: 3s,
@@ -46,14 +47,15 @@
       right: 55%;
       bottom: -5px;
       font-size: 25px;
+      font-family: $sans-serif;
       @include size(38px 44px);
       @extend h1;
       @include pulsate;
-      font-family: $sans-serif;
     }
 
     &:hover {
       cursor: pointer;
+      
       img {
         opacity: 0;
       }
@@ -63,28 +65,27 @@
         visibility: visible;
       }
     }
-
   };
 
   .introName {
     margin-top: 100px;
     margin-bottom: 0;
+    @include font-size(100px);
     @include fadeInUp(
       $duration: 3s,
       $delay: .3s,
       $function: ease
     );
-    @include font-size(100px);
   };
 
   .introTitle {
     font-family: $sans-serif;
+    @include font-size(30px);
     @include fadeInDown(
       $duration: 3s,
       $delay: .3s,
       $function: ease
     );
-    @include font-size(30px);
   }
 
   .resume {

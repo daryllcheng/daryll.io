@@ -3,8 +3,8 @@
 .dotNav {
 	position: fixed;
 	right: 40px;
-	@include center(y); 
 	z-index: 1;
+	@include center(y); 
 
   ul {
     list-style: none;
@@ -25,8 +25,8 @@
 		}
 
 		&:hover span {
-			@include transform(scale(1.2)); 
       cursor: pointer;
+			@include transform(scale(1.2)); 
 		}
 
 		&:hover .dotLabel {
@@ -37,13 +37,13 @@
 	.dot {
 		position: relative;
 		top: 8px;
-    @include size(12px);
 		border-radius: 50%;
 		background-color: $color4;
 		-webkit-transition: -webkit-transform 0.2s, background-color 0.5s;
 		-moz-transition: -moz-transform 0.2s, background-color 0.5s;
 		transition: transform 0.2s, background-color 0.5s;
 		transform-origin: 50% 50%;	
+    @include size(12px);
 	}
     .active {
       .dot {
@@ -56,11 +56,11 @@
 		margin-right: 10px;
 		padding: .4em .5em;
 		color: $darkPurple;
-		@include font-size(14px);
 		-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
 		-moz-transition: -moz-transform 0.2s, opacity 0.2s;
 		transition: transform 0.2s, opacity 0.2s;
 		opacity: 0;
 		transform-origin: 100% 50%;
+		@include font-size(14px);
 	}
 }
