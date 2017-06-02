@@ -44,7 +44,7 @@ module.exports = function(grunt) {
     uglify: {
       my_target: {
         files: {
-          'src/JS/scripts.js': ['src/bundles/bundle.js']
+          'src/js/scripts.js': ['src/bundles/bundle.js']
         }
       }
     }

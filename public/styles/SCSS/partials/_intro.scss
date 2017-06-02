@@ -31,6 +31,12 @@
       background-repeat: no-repeat;
       background-attachment: center;
       background-position: center;
+      @include bounce(
+        $duration: 3s,
+        $delay: 3s,
+        $count: infinite,
+        $function: ease
+      );
     }
 
     span {
