@@ -3,6 +3,8 @@ import personal from '../../data/personal.json';
 import Scroll, { Link } from 'react-scroll';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import FlatButton from 'material-ui/FlatButton';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+injectTapEventPlugin();
 
 const Intro = () => (
   <div className="section">
