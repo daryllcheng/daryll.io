@@ -40,5 +40,8 @@
     "grunt-sass": "^2.0.0",
     "load-grunt-tasks": "^3.5.2",
     "webpack": "^2.5.1"
+  },
+  "engines": {
+    "node": "7.4.0"
   }
 }
