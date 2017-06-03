@@ -17,6 +17,7 @@
   "devDependencies": {
     "bourbon": "^4.3.4",
     "susy": "^2.2.12",
-    "normalize-css": "^7.0.0"
+    "normalize-css": "^7.0.0",
+    "animatewithsass": "^3.2.2"
   }
 }
