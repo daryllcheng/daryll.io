@@ -732,7 +732,7 @@ h1, h2, #intro .scrollWrapper span {
   position: fixed;
   width: 36px;
   height: 30px;
-  left: 36px;
+  right: 36px;
   top: 36px; }
 
 /* Color/shape of burger icon bars */
