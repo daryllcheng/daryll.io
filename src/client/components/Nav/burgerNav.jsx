@@ -23,7 +23,7 @@ class BurgerNav extends Component {
     return (
       <Menu className="burgerNav" right isOpen={ this.state.isOpen }>
         { this.props.projects.map(project =>
-          <Link className="menu-item" activieClass="active" to={ project.Name } spy={ true } smooth={ true } duration={ 500 } onClick={ () => this.handleClick() }>
+          <Link className="menu-item" to={ project.Name } spy={ true } smooth={ true } duration={ 500 } onClick={ () => this.handleClick() }  key={ project.Name }>
             <span>{ project.Name }</span>
           </Link>
         )}

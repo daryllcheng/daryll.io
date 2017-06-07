@@ -1,5 +1,7 @@
 .hero {
-  background: url("/assets/intro.jpg") no-repeat fixed center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
   text-align: center;
   position: relative;
@@ -8,11 +10,16 @@
   .wrap {
     padding: 30px 0;
   }
+
+  @include susy-breakpoint($medium) {
+
+  }
 }
 
 #intro {
   height: 100vh;
   @extend .hero;
+  background-image: url("/assets/intro.jpg");
 
   .overlay {
     background: rgba($brown, .2);
@@ -70,7 +77,7 @@
   .introName {
     margin-top: 100px;
     margin-bottom: 0;
-    @include font-size(100px);
+    @include font-size(50px);
     @include fadeInUp(
       $duration: 3s,
       $delay: .3s,
@@ -80,7 +87,7 @@
 
   .introTitle {
     font-family: $sans-serif;
-    @include font-size(30px);
+    @include font-size(15px);
     @include fadeInDown(
       $duration: 3s,
       $delay: .3s,
@@ -95,5 +102,17 @@
       $delay: 1.5s,
       $function: ease
     );
+  }
+
+  @include susy-breakpoint($medium) {
+    .introName {
+      margin-top: 100px;
+      margin-bottom: 0;
+      @include font-size(100px);
+    }
+
+    .introTitle {
+       @include font-size(30px);
+    }
   }
 }
