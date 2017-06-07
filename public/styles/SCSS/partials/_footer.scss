@@ -11,5 +11,10 @@
       @include pulsate;
     }
   }
+
+  @include susy-breakpoint(0 $small) {
+    /* Background pattern from Subtle Patterns */
+    background-image: url("/assets/BGs/weather.png");
+  }
 }
 

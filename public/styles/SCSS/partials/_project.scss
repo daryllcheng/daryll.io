@@ -35,24 +35,24 @@
 }
 
 #Tie-Chai {
-  @include project($color3, $white);
+  @include project($color3, $white, $blue);
   a {
     text-decoration: none;
   }
 }
 
 #Seethroughme {
-  @include project($color4, $white);
+  @include project($color4, $white, $yellow);
 }
 
 #ReUp {
-  @include project($color4, $white);
+  @include project($color4, $white, $green);
 }
 
 #Shuriken {
-  @include project($color4, $white);
+  @include project($color4, $white, $red);
 }
 
 #Shufflr {
-  @include project($color3, $white);
+  @include project($color3, $white, $brown);
 }

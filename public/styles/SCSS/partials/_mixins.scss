@@ -1,12 +1,18 @@
 /* Project */
 
-@mixin project($overlay, $fontColor) {
+@mixin project($overlay, $fontColor, $mobileColor) {
   background: $white;
   h2 {
     color: $fontColor;
   }
   .overlay {
     background: $overlay
+  }
+
+  @include susy-breakpoint(0 $small) {
+    .overlay {
+      background: $mobileColor;
+    }
   }
 }
 

@@ -536,8 +536,6 @@ h1, h2, #intro .scrollWrapper span {
   background-size: cover;
   text-align: center;
   position: relative;
-  overflow: scroll;
-  -webkit-overflow-scrolling: touch;
   height: auto;
   width: 100%; }
   .hero .wrap, #intro .wrap, #footer .wrap {
@@ -546,6 +544,10 @@ h1, h2, #intro .scrollWrapper span {
 #intro {
   height: 100vh;
   background-image: url("/assets/intro.jpg"); }
+  @media (min-width: 0) and (max-width: 480px) {
+    #intro {
+      /* Background pattern from Subtle Patterns */
+      background-image: url("/assets/BGs/weather.png"); } }
   #intro .overlay {
     background: rgba(80, 81, 79, 0.2);
     height: 100vh; }
@@ -811,6 +813,10 @@ h1, h2, #intro .scrollWrapper span {
       /* IE 9 */
       /* Opera */
       transform: translatZ(0) scale(1.2); }
+  @media (min-width: 0) and (max-width: 480px) {
+    #footer {
+      /* Background pattern from Subtle Patterns */
+      background-image: url("/assets/BGs/weather.png"); } }
 
 .screenshot {
   margin: auto;
@@ -877,6 +883,9 @@ h1, h2, #intro .scrollWrapper span {
     color: #fff; }
   #Tie-Chai .overlay {
     background: rgba(155, 193, 188, 0.5); }
+  @media (min-width: 0) and (max-width: 480px) {
+    #Tie-Chai .overlay {
+      background: #247ba0; } }
   #Tie-Chai a {
     text-decoration: none; }
 
@@ -886,6 +895,9 @@ h1, h2, #intro .scrollWrapper span {
     color: #fff; }
   #Seethroughme .overlay {
     background: rgba(92, 164, 169, 0.5); }
+  @media (min-width: 0) and (max-width: 480px) {
+    #Seethroughme .overlay {
+      background: #ffe066; } }
 
 #ReUp {
   background: #fff; }
@@ -893,6 +905,9 @@ h1, h2, #intro .scrollWrapper span {
     color: #fff; }
   #ReUp .overlay {
     background: rgba(92, 164, 169, 0.5); }
+  @media (min-width: 0) and (max-width: 480px) {
+    #ReUp .overlay {
+      background: #70c1b3; } }
 
 #Shuriken {
   background: #fff; }
@@ -900,6 +915,9 @@ h1, h2, #intro .scrollWrapper span {
     color: #fff; }
   #Shuriken .overlay {
     background: rgba(92, 164, 169, 0.5); }
+  @media (min-width: 0) and (max-width: 480px) {
+    #Shuriken .overlay {
+      background: #f25f5c; } }
 
 #Shufflr {
   background: #fff; }
@@ -907,6 +925,9 @@ h1, h2, #intro .scrollWrapper span {
     color: #fff; }
   #Shufflr .overlay {
     background: rgba(155, 193, 188, 0.5); }
+  @media (min-width: 0) and (max-width: 480px) {
+    #Shufflr .overlay {
+      background: #50514f; } }
 
 /* Minimal-devices */
 .md-macbook-pro {
