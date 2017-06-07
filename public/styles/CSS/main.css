@@ -546,8 +546,11 @@ h1, h2, #intro .scrollWrapper span {
   background-image: url("/assets/intro.jpg"); }
   @media (min-width: 0) and (max-width: 480px) {
     #intro {
-      /* Background pattern from Subtle Patterns */
-      background-image: url("/assets/BGs/weather.png"); } }
+      background: #00c6ff;
+      /* fallback for old browsers */
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ } }
   #intro .overlay {
     background: rgba(80, 81, 79, 0.2);
     height: 100vh; }
@@ -815,8 +818,11 @@ h1, h2, #intro .scrollWrapper span {
       transform: translatZ(0) scale(1.2); }
   @media (min-width: 0) and (max-width: 480px) {
     #footer {
-      /* Background pattern from Subtle Patterns */
-      background-image: url("/assets/BGs/weather.png"); } }
+      background: #00c6ff;
+      /* fallback for old browsers */
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ } }
 
 .screenshot {
   margin: auto;

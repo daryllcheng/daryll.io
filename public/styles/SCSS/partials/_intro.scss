@@ -18,8 +18,9 @@
   @extend .hero;
 
   @include susy-breakpoint(0 $small) {
-    /* Background pattern from Subtle Patterns */
-    background-image: url("/assets/BGs/weather.png");
+    background: #00c6ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00c6ff, #0072ff); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00c6ff, #0072ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
   .overlay {
