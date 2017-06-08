@@ -2,7 +2,7 @@
   {
     "Name": "Seethroughme",
     "Date": 2017,
-    "Description": "SeeThroughMe provides useful tools for travelers who need help identifying and translating signs or objects in foreign countries. The app takes your image submission, converts it to descriptions, translates them to different languages, and produces pronounciations for you to listen to. The application can be used in both web and mobile platforms, making it flexible for travelers on the go.",
+    "Description": "SeeThroughMe provides useful tools for travelers who need help identifying and translating signs or objects in foreign countries. The app takes your image submission, converts it to descriptions, translates them to different languages, and produces pronunciations for you to listen to. The application can be used in both web and mobile platforms, making it flexible for travelers on the go.",
     "Stack": ["React", "Node", "Express"],
     "APIs": ["IBM Watson Text to Speech", "Google Cloud Translation", "IBM Watson Visual Recognition", "Google Tesseract OCR"],
     "Screenshot": "/assets/Screenshots/seethroughme.gif",
@@ -26,7 +26,7 @@
   {
     "Name": "ReUp",
     "Date": 2017,
-    "Description": "ReUp is a news, media and information aggregator that uses React w/ React-Router and various API quiries via Ajax and Axios to consolidate the most recent and relevant topical trends from our users' subscribed interests. This current version is geared towards gamers specifically.",
+    "Description": "ReUp is a news, media and information aggregator that uses React w/ React-Router and various API queries via Ajax and Axios to consolidate the most recent and relevant topical trends from our users' subscribed interests. This current version is geared towards gamers specifically.",
     "Stack": ["React", "Node", "MySQL", "Express"],
     "APIs": ["Youtube", "Reddit", "Twitter", "Twitch", "IGN", "Giant Bomb", "Polygon"],
     "Screenshot": "/assets/Screenshots/reup.gif",
