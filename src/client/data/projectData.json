@@ -7,7 +7,7 @@
     "APIs": ["IBM Watson Text to Speech", "Google Cloud Translation", "IBM Watson Visual Recognition", "Google Tesseract OCR"],
     "Screenshot": "/assets/Screenshots/seethroughme.gif",
     "Demo": "",
-    "Github": "https://github.com/daryllcheng/seethroughme",
+    "Github": "https://github.com/ReUP-HR/seethroughme",
     "Background": "/assets/BGs/seethroughmeBG.jpg",
     "Octocat": "/assets/Octocats/stormtroopocat.png"
   },
