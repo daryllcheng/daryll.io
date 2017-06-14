@@ -8,8 +8,8 @@
     "Screenshot": "/assets/Screenshots/seethroughme.gif",
     "Demo": "",
     "Github": "https://github.com/ReUP-HR/seethroughme",
-    "Background": "/assets/BGs/seethroughmeBG.jpg",
-    "Octocat": "/assets/Octocats/stormtroopocat.png"
+    "Background": "/assets/BGs/seethroughmeBG-min.jpg",
+    "Octocat": "/assets/Octocats/stormtroopocat-min.png"
   },
   {
     "Name": "Tie-Chai",
@@ -20,8 +20,8 @@
     "Screenshot": "/assets/Screenshots/tiechai.gif",
     "Demo": "http://tie-chai.com/#/",
     "Github": "https://github.com/Space-Pirahnas/tie-chai",
-    "Background": "/assets/BGs/tiechaiBG.jpg",
-    "Octocat": "/assets/Octocats/breakingcat.png"
+    "Background": "/assets/BGs/tiechaiBG-min.jpg",
+    "Octocat": "/assets/Octocats/breakingcat-min.png"
   },
   {
     "Name": "ReUp",
@@ -32,8 +32,8 @@
     "Screenshot": "/assets/Screenshots/reup.gif",
     "Demo": "",
     "Github": "https://github.com/ReUP-HR/ReUP-HR",
-    "Background": "/assets/BGs/reupBG.jpg",
-    "Octocat": "/assets/Octocats/ironcat.png"
+    "Background": "/assets/BGs/reupBG-min.jpg",
+    "Octocat": "/assets/Octocats/ironcat-min.png"
   },
   {
     "Name": "Shuriken",
@@ -44,8 +44,8 @@
     "Screenshot": "/assets/Screenshots/shuriken.gif",
     "Demo": "",
     "Github": "https://github.com/daryllcheng",
-    "Background": "/assets/BGs/shurikenBG.jpg",
-    "Octocat": "/assets/Octocats/spidertocat.png"
+    "Background": "/assets/BGs/shurikenBG-min.jpg",
+    "Octocat": "/assets/Octocats/spidertocat-min.png"
   },
   {
     "Name": "Shufflr",
@@ -56,7 +56,7 @@
     "Screenshot": "/assets/Screenshots/shufflr.gif",
     "Demo": "",
     "Github": "https://github.com/daryllcheng",
-    "Background": "/assets/BGs/shufflrBG.jpg",
-    "Octocat": "/assets/Octocats/waldocat.png"
+    "Background": "/assets/BGs/shufflrBG-min.jpg",
+    "Octocat": "/assets/Octocats/waldocat-min.png"
   }
 ]

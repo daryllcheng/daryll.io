@@ -1,67 +1,67 @@
 [
   {
     "Name": "Giant Bomb",
-    "Icon": "/assets/APIs/giantBomb.png",
+    "Icon": "/assets/APIs/giantBomb-min.png",
     "Link": "https://www.giantbomb.com/api/"
   },
   {
     "Name": "Google Maps",
-    "Icon": "/assets/APIs/googleMaps.png",
+    "Icon": "/assets/APIs/googleMaps-min.png",
     "Link": "https://developers.google.com/maps/"
   },
   {
     "Name": "Google Tesseract OCR",
-    "Icon": "/assets/APIs/googleOCR.png",
+    "Icon": "/assets/APIs/googleOCR-min.png",
     "Link": "https://github.com/tesseract-ocr/tesseract"
   },
   {
     "Name": "Google Cloud Translation",
-    "Icon": "/assets/APIs/googletranslate.png",
+    "Icon": "/assets/APIs/googletranslate-min.png",
     "Link": "https://cloud.google.com/translate/docs/"
   },
   {
     "Name": "Reddit",
-    "Icon": "/assets/APIs/reddit.png",
+    "Icon": "/assets/APIs/reddit-min.png",
     "Link": "https://www.reddit.com/dev/api/"
   },
   {
     "Name": "IBM Watson Text to Speech",
-    "Icon": "/assets/APIs/textToSpeech.png",
+    "Icon": "/assets/APIs/textToSpeech-min.png",
     "Link": "https://www.ibm.com/watson/developercloud/text-to-speech.html"
   },
   {
     "Name": "IBM Watson Visual Recognition",
-    "Icon": "/assets/APIs/watsonVR.png",
+    "Icon": "/assets/APIs/watsonVR-min.png",
     "Link": "https://www.ibm.com/watson/developercloud/visual-recognition.html"
   },
   {
     "Name": "IGN",
-    "Icon": "/assets/APIs/ign.png",
+    "Icon": "/assets/APIs/ign-min.png",
     "Link": "https://newsapi.org/ign-api"
   },
   {
     "Name": "Polygon",
-    "Icon": "/assets/APIs/polygon.png",
+    "Icon": "/assets/APIs/polygon-min.png",
     "Link": "https://newsapi.org/polygon-api"
   },
   {
     "Name": "Twitch",
-    "Icon": "/assets/APIs/twitch.png",
+    "Icon": "/assets/APIs/twitch-min.png",
     "Link": "https://dev.twitch.tv/"
   },
   {
     "Name": "Twitter",
-    "Icon": "/assets/APIs/twitter.png",
+    "Icon": "/assets/APIs/twitter-min.png",
     "Link": "https://dev.twitter.com/rest/public"
   },
   {
     "Name": "Yelp",
-    "Icon": "/assets/APIs/yelp.png",
+    "Icon": "/assets/APIs/yelp-min.png",
     "Link": "https://www.yelp.com/developers/documentation/v2/overview"
   },
   {
     "Name": "Youtube",
-    "Icon": "/assets/APIs/youtube.png",
+    "Icon": "/assets/APIs/youtube-min.png",
     "Link": "https://developers.google.com/youtube/"
   }
 ]

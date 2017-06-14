@@ -543,7 +543,7 @@ h1, h2, #intro .scrollWrapper span {
 
 #intro {
   height: 100vh;
-  background-image: url("/assets/intro.jpg"); }
+  background-image: url("/assets/intro-min.jpg"); }
   @media (min-width: 0) and (max-width: 480px) {
     #intro {
       background: #00c6ff;
@@ -797,7 +797,7 @@ h1, h2, #intro .scrollWrapper span {
       color: #f25f5c; }
 
 #footer {
-  background-image: url("/assets/intro.jpg"); }
+  background-image: url("/assets/intro-min.jpg"); }
   #footer .footerSocial i {
     padding: 20px;
     color: #fff;

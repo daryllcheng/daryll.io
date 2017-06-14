@@ -6,7 +6,7 @@ const Icons = (props) => (
   <div className="icons">
     <h3 className="label">{ `${ props.title }: ` } </h3>
     <div className="fullstack">
-      <img className="bracket" src="/assets/leftBracket.png" />
+      <img className="bracket" src="/assets/leftBracket-min.png" />
         { props.tags.map(tag => {
             let target = props.title === 'Stack' ? Stacks.find(stack => stack.Name === tag) : APIs.find(api => api.Name === tag);
             return (
@@ -14,7 +14,7 @@ const Icons = (props) => (
             )
           }
         )}
-      <img className="bracket" src="/assets/rightBracket.png" />
+      <img className="bracket" src="/assets/rightBracket-min.png" />
     </div>
   </div>
 );

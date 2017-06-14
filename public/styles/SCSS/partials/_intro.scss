@@ -14,7 +14,7 @@
 
 #intro {
   height: 100vh;
-  background-image: url("/assets/intro.jpg");
+  background-image: url("/assets/intro-min.jpg");
   @extend .hero;
 
   @include susy-breakpoint(0 $small) {
