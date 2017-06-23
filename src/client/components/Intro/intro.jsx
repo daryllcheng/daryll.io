@@ -14,7 +14,7 @@ const Intro = () => (
           <h1 className="introName">{ personal.Name }</h1>
           <h2 className="introTitle">{ personal.Title }</h2>
           <MuiThemeProvider >
-            <FlatButton className="resume" label="resume" secondary={ true } href="/assets/resume.pdf" target="_blank" />
+            <FlatButton className="resume" label="resume" secondary={ true } href="/assets/Resume.pdf" target="_blank" />
           </MuiThemeProvider>
           <div className="scrollWrapper">
             <Link className="scrollDown" to="Seethroughme" smooth={ true } duration={ 800 }>
