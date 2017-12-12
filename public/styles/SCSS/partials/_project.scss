@@ -34,10 +34,21 @@
   @include pulsate;
 }
 
+.fa-link {
+  @include pulsate;
+}
+
 #Tie-Chai {
   @include project($color3, $white, $blue);
   a {
     text-decoration: none;
+  }
+}
+
+#Readdit {
+  @include project($color3, $white, $brown);
+  .projectDescription {
+    text-align: center;
   }
 }
 

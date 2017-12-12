@@ -1,5 +1,17 @@
 [
   {
+    "Name": "Readdit",
+    "Date": 2017,
+    "Description": "A responsive streamlined reddit reader.",
+    "Stack": ["React", "Redux"],
+    "APIs": ["Reddit"],
+    "Screenshot": "/assets/Screenshots/readdit.gif",
+    "Demo": "https://daryllcheng.github.io/readdit/",
+    "Github": "https://github.com/daryllcheng/readdit",
+    "Background": "/assets/BGs/shufflrBG-min.jpg",
+    "Octocat": "/assets/Octocats/jetpacktocat.png"
+  },
+  {
     "Name": "Seethroughme",
     "Date": 2017,
     "Description": "SeeThroughMe provides useful tools for travelers who need help identifying and translating signs or objects in foreign countries. The app takes your image submission, converts it to descriptions, translates them to different languages, and produces pronunciations for you to listen to. The application can be used in both web and mobile platforms, making it flexible for travelers on the go.",

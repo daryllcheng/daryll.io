@@ -17,12 +17,17 @@ const Project = ({ project }) => {
         <Icons tags={ project.Stack } title={ 'Stack' } />
         { project.APIs.length > 0 ? <Icons tags={ project.APIs } title={ 'APIs' } /> : null }
         <div className="projectDescription">{ project.Description }</div>
-        { project.Demo ? ( 
-            <div className="demo">
-              Check it out at
-              <a className="button" href={ project.Demo } target="_blank"> tie-chai.com</a>!
-             </div> ) 
-          : null }
+        { 
+          project.Demo ? 
+          <div className="demo">
+            Click on link see it in action!
+            <br /> 
+            <a href={ project.Demo } target="_blank">
+              <i className="fas fa-link"></i>
+            </a> 
+          </div> : 
+          <div />
+        }
         <a href={ project.Github } target="_blank"><img className="octocat" src={ project.Octocat } alt="Github" /></a>
       </div>
     </div>

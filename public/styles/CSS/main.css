@@ -883,6 +883,22 @@ h1, h2, #intro .scrollWrapper span {
     /* Opera */
     transform: translatZ(0) scale(1.2); }
 
+.fa-link {
+  /* Safari and Chrome */
+  /* Firefox */
+  /* IE 9 */
+  /* Opera */
+  transition: all .3s ease; }
+  .fa-link:hover {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.2);
+    /* Safari and Chrome */
+    /* Firefox */
+    /* IE 9 */
+    /* Opera */
+    transform: translatZ(0) scale(1.2); }
+
 #Tie-Chai {
   background: #fff; }
   #Tie-Chai h2 {
@@ -894,6 +910,18 @@ h1, h2, #intro .scrollWrapper span {
       background: #247ba0; } }
   #Tie-Chai a {
     text-decoration: none; }
+
+#Readdit {
+  background: #fff; }
+  #Readdit h2 {
+    color: #fff; }
+  #Readdit .overlay {
+    background: rgba(155, 193, 188, 0.5); }
+  @media (min-width: 0) and (max-width: 480px) {
+    #Readdit .overlay {
+      background: #50514f; } }
+  #Readdit .projectDescription {
+    text-align: center; }
 
 #Seethroughme {
   background: #fff; }
